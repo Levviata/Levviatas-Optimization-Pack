@@ -1,0 +1,208 @@
+{
+  "game": "minecraft",
+  "formatVersion": 1,
+  "versionId": "0.0.0",
+  "name": "Levviatas Optimization Pack",
+  "summary": "",
+  "files": [
+    {
+      "path": "mods/betterbiomeblend-1.12.2-1.1.7-forge.jar",
+      "hashes": {
+        "sha1": "a9463fed7357f39515707b5bbb4cac780916abf5",
+        "sha512": "a90ed0b665507e434ede0a6c1521bd106fc483eb3260772d080e4c9f55dc7319d69480048a4e96ffe2adc390483b7588ffa7a34e725a57d44ad17d9ccc67f9ea"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Rs6c7WyL/versions/1.12.2-1.1.7-forge/betterbiomeblend-1.12.2-1.1.7-forge.jar"
+      ],
+      "fileSize": 37657
+    },
+    {
+      "path": "mods/!configanytime-3.0.jar",
+      "hashes": {
+        "sha1": "b6d8a10219d3802e04de6b1e815a5853e50adbcc",
+        "sha512": "27103270deb607da87d983a0a12ab3a64497b138b4748364f777dd5606f9c0ed6174f039edc6c2db0e401b1d8e99ae88ddce252b104892fc98273cc9259bcf87"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Bnsrfd1o/versions/Ha5RG6IC/%21configanytime-3.0.jar"
+      ],
+      "fileSize": 5201
+    },
+    {
+      "path": "mods/vintagefix-0.5.1.jar",
+      "hashes": {
+        "sha1": "6cfbd3ded0d8d6c47e3e5aa822f38fb753ebae3e",
+        "sha512": "8778757edc53b6cca3f66e24c253a3658f8b5519f4b60f9b139d1e0ef3d2e9c2b2cc3727116ae62251339aae663249edf918b1a48c5b7476499f5da990ef32f3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/e6vNsbAm/versions/FyajaeIv/vintagefix-0.5.1.jar"
+      ],
+      "fileSize": 1017716
+    },
+    {
+      "path": "mods/rawinput-1.7.0.jar",
+      "hashes": {
+        "sha1": "910a5d9c4bf2a5ddabc694b9a7fe02b8809b1e1e",
+        "sha512": "1cab488406478cf5fa34521aee2010175d6df3833bc2d82a975275197aabc02f1692d09aa0cbbd08521461f656b33f623b30cdf90130089b63c231431c8e4a3a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/q89I8czH/versions/csgj8jUX/rawinput-1.7.0.jar"
+      ],
+      "fileSize": 10601
+    },
+    {
+      "path": "mods/naughthirium-1.0.2.jar",
+      "hashes": {
+        "sha1": "0a230dd9136e66fd34fc42ee6188d53b76e29e15",
+        "sha512": "9fe930691d72edc73ea993d14d7f7c1058097a6afb22c57b24fcb925ce9124e1c0c78d5e1486a2d924e88a8063fb84318d3dbedb61523285713db3836b923d7c"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Iz4aO7EX/versions/V7nBrNwg/naughthirium-1.0.2.jar"
+      ],
+      "fileSize": 49496
+    },
+    {
+      "path": "mods/!Red-Core-MC-1.7-1.12-0.5.1.jar",
+      "hashes": {
+        "sha1": "7b948311155c1ba8d3f2b1a18a1caa751f1925d0",
+        "sha512": "af65b6d31dbcd6acedc9d82b85b0536faf1355d58ecef9d9dbd4f04b231b8d5b00963390a6a69f13e69da44a052350fcdd3ecb885dbbb7f5d16e0193256c6b13"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/%21Red-Core-MC-1.7-1.12-0.5.1.jar"
+      ],
+      "fileSize": 130772
+    },
+    {
+      "path": "mods/UniversalTweaks-1.12.2-1.13.0.jar",
+      "hashes": {
+        "sha1": "1645310ef714920af062f9c612d077b7a7683aad",
+        "sha512": "16f596a00ffbca9c6934d17e312611706dfe98d14b19462e9d6774e7d38bf69f3492d59658e657f5cee6616402c64c32fd357fce099267d99ee5218b44981bab"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/s32LssQX/versions/Pb7ELn6C/UniversalTweaks-1.12.2-1.13.0.jar"
+      ],
+      "fileSize": 1477608
+    },
+    {
+      "path": "mods/_MixinBootstrap-1.1.0.jar",
+      "hashes": {
+        "sha1": "f9173708d3d2850ab8df778b9594b81cb94b1df8",
+        "sha512": "973aeff50dd8e1976895d36917e3f06334dc70800dfbd12639e522fb2b71e130db3865fd67d494e2d13e2ca67efe76ecfc3ee60d138e880dc884ac9f82c35eb8"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6a16628x/versions/hOGSWOX8/_MixinBootstrap-1.1.0.jar"
+      ],
+      "fileSize": 1119478
+    },
+    {
+      "path": "mods/Alfheim-1.4.jar",
+      "hashes": {
+        "sha1": "3f0db29f174b28ae23e3f72c12adb3a7cb716b8b",
+        "sha512": "81e51756ec064f4ac8bca9cde5ebffec205cecd9a399761593dfeb6d3e6937db4ad5059cdb9eb942d1b2c82fb8adf94fc0be22edc434e02f9396da1c1e3b406a"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/srzJgOEn/versions/wjgtKbab/Alfheim-1.4.jar"
+      ],
+      "fileSize": 69745
+    },
+    {
+      "path": "mods/Clumps-3.1.2.jar",
+      "hashes": {
+        "sha1": "6ea78bea8006e3924bc37c2aef0115134c8af07b",
+        "sha512": "2a72aa558da9a214e209bd7d8903aa9cbc7e9d54665097b2770ae9cb4113f101ff52d04b9459510cede3aa33ed535111a1e9b26e38f334b7fa768e5ab59ce0ad"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Wnxd13zP/versions/nZvGITpT/Clumps-3.1.2.jar"
+      ],
+      "fileSize": 13792
+    },
+    {
+      "path": "mods/!mixinbooter-10.3.jar",
+      "hashes": {
+        "sha1": "3ba8696a251eb1d9f4365c6e0ad33a185dcbcde7",
+        "sha512": "2507114b6da16f527e1470d89edb7b5cb7866f701c13ce8f5ffb90d75ad02835fc99922c0dee8700e44a931400607fc93b6f68538b42d40bc29778313c9d3d03"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/G1ckZuWK/versions/HENwY7wf/%21mixinbooter-10.3.jar"
+      ],
+      "fileSize": 2378694
+    },
+    {
+      "path": "mods/!mod-director-launchwrapper-1.8.3.jar",
+      "hashes": {
+        "sha1": "e00b900dc224c816289fb66716429f57a86c88dd",
+        "sha512": "341c304d4545b8cf7a0e1a2d5907bfdaf5675904b104844f019670647a15e2aabcff56c44f0860d3a70b333fc301d7261b3fe6ae66b41b3de72d72d7048b87d0"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4dRu1OUz/versions/b8pITnja/%21mod-director-launchwrapper-1.8.3.jar"
+      ],
+      "fileSize": 2917748
+    },
+    {
+      "path": "mods/particleculling-1.12.2-v1.4.3.jar",
+      "hashes": {
+        "sha1": "2c4847ca6c7cf1d41ff320943394ff61028c7e72",
+        "sha512": "127870b83a0124988e127a43b952d994cae781d2cbf6885ec0c4daa27ec16a72a33e5bdc30f7f2cf7f962ed9ff2a4dbdd86ffcd6a4a5ed731b74523f4fa10f5d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/l7imhLoC/versions/kwzcEeSC/particleculling-1.12.2-v1.4.3.jar"
+      ],
+      "fileSize": 17450
+    }
+  ],
+  "dependencies": {
+    "minecraft": "1.12.2",
+    "forge": "14.23.5.2860"
+  }
+}
