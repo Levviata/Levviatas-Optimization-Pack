@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE.md"
+hash = "01e22c13e1eba21d9fa0790ae648a2212a51924c30a1d1e667ab515e71a1e64a"
+
+[[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
 hash = "e6134ac325ab55e8d7b4e2e947cea668976c88a4dd64c7d5c7bc73b3ff1826de"
 
