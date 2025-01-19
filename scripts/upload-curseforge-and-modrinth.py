@@ -89,7 +89,7 @@ def get_changelog():
 if __name__ == "__main__":
     subprocess.run(["python", export_script], check=True)
     
-    API_KEY_CURSEFORGE = "ddfb7261-68d5-499f-9098-c2411434e731"
+    API_KEY_CURSEFORGE = "dummy-token"
     PROJECT_ID_CURSEFORGE = "1183185"
 
     # Search for the modpack file
@@ -123,4 +123,4 @@ if __name__ == "__main__":
         RELEASE_TYPE = input(f"Enter the release type ({', '.join(RELEASE_TYPE_OPTIONS)}): ").strip().lower()
 
     upload_modpack_modrinth(API_KEY, PROJECT_ID, MODRINTH_PATH, CHANGELOG, RELEASE_TYPE, GAME_VERSIONS)
-    upload_modpack_curseforge(API_KEY, PROJECT_ID, CURSEFORGE_PATH, CHANGELOG, RELEASE_TYPE, GAME_VERSIONS)
+    upload_modpack_curseforge(API_KEY_CURSEFORGE, PROJECT_ID_CURSEFORGE, CURSEFORGE_PATH, CHANGELOG, RELEASE_TYPE, GAME_VERSIONS)
