@@ -101,10 +101,6 @@ file = "config/vintagefix.properties"
 hash = "300ef66cbf77dc0d9d7f8eec753756cf0cfde8390717998c8d103b56e3330ccb"
 
 [[files]]
-file = "config/vintagium-mixins.properties"
-hash = "910da8f9519cf3b96ba6f25a860a068ac89bb6fcfa9b432d6ba0e9cebb82d3b3"
-
-[[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
 hash = "38b628f90818b2e90a98f718b8841f02ae98516a56f821321857187a602e311f"
 metafile = true
