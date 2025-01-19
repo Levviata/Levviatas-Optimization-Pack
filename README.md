@@ -5,3 +5,6 @@
 Modrinth: (not uploaded yet)
 
 CurseForge: (not uploaded)
+
+# License
+Licensed under a modified MIT license.
