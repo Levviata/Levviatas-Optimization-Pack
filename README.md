@@ -6,6 +6,6 @@ A modpack that includes optimization mods from [Useful Mods List](https://github
 _(also goes under the name "Optimum")_
  
 # Links / Info
-Modrinth: (not uploaded yet)
+Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack
 
 CurseForge: (not uploaded)
