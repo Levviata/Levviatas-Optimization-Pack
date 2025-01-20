@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
-hash = "e6134ac325ab55e8d7b4e2e947cea668976c88a4dd64c7d5c7bc73b3ff1826de"
+hash = "5193cde4f0e587746eaf7e4205d5f0a276999e6f6dd1592aabdd333678766150"
 
 [[files]]
 file = "config/Universal Tweaks - General.cfg"
@@ -149,6 +149,16 @@ metafile = true
 [[files]]
 file = "mods/red-core.pw.toml"
 hash = "93458d95ceddb688054981224e61b8952b4c4e5fbf9be4173af7ada49f4b877c"
+metafile = true
+
+[[files]]
+file = "mods/sledgehammer.pw.toml"
+hash = "48f2d45241510db831478b94b89db8209a88929f8b3a20fbd5024d4eb14b7f62"
+metafile = true
+
+[[files]]
+file = "mods/spark-unforged.pw.toml"
+hash = "b372ab65743395727282b191b27a39293fe31d6d48ae944826bda4d576e8bcb9"
 metafile = true
 
 [[files]]
