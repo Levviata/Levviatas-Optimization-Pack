@@ -89,7 +89,7 @@ def get_changelog():
 if __name__ == "__main__":
     subprocess.run(["python", export_script], check=True)
     
-    API_KEY_CURSEFORGE = "dummy-token"
+    API_KEY_CURSEFORGE = "DONT BAKE IN API KEYS, USE AN .ENV FILE"
     PROJECT_ID_CURSEFORGE = "1183185"
 
     # Search for the modpack file
