@@ -1,0 +1,13 @@
+name = "Sledgehammer"
+filename = "Sledgehammer-1.12.2-2.0.26.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QItC3hpi/versions/8FvBZSXr/Sledgehammer-1.12.2-2.0.26-thin.jar"
+hash-format = "sha512"
+hash = "bb72a9b51e426e3a523fa21acff296b7b999108b0710798db9f8a658a429c7df9d297cd8c208945515436082acb55b3f7d6858575f87442bd89754980f1e3f98"
+
+[update]
+[update.modrinth]
+mod-id = "QItC3hpi"
+version = "8FvBZSXr"

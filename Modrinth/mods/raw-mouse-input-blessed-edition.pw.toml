@@ -1,0 +1,13 @@
+name = "Raw Mouse Input - Blessed Edition"
+filename = "rawinput-1.7.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/q89I8czH/versions/csgj8jUX/rawinput-1.7.0.jar"
+hash-format = "sha512"
+hash = "1cab488406478cf5fa34521aee2010175d6df3833bc2d82a975275197aabc02f1692d09aa0cbbd08521461f656b33f623b30cdf90130089b63c231431c8e4a3a"
+
+[update]
+[update.modrinth]
+mod-id = "q89I8czH"
+version = "csgj8jUX"

@@ -1,0 +1,13 @@
+name = "Alfheim"
+filename = "Alfheim-1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/srzJgOEn/versions/wjgtKbab/Alfheim-1.4.jar"
+hash-format = "sha512"
+hash = "81e51756ec064f4ac8bca9cde5ebffec205cecd9a399761593dfeb6d3e6937db4ad5059cdb9eb942d1b2c82fb8adf94fc0be22edc434e02f9396da1c1e3b406a"
+
+[update]
+[update.modrinth]
+mod-id = "srzJgOEn"
+version = "wjgtKbab"

@@ -1,0 +1,13 @@
+name = "Optimum"
+author = "Levviata"
+version = "0.9.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ec9e9dd2fbcb9e0d6bf6aac8d06d4ebd23b2989e4f340a169422a2dc906f8e7f"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"

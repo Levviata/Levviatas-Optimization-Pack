@@ -1,0 +1,13 @@
+name = "Spark Unforged"
+filename = "spark-unforged-1.11.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/trhPSzT0/versions/7RvEr8Bc/spark-unforged-1.11.2-forge.jar"
+hash-format = "sha512"
+hash = "f5159b9187038c814bbd5329bee628a6d117c38992736a2c06025c17a416f4ff32c804cb18bf333fd312a00d9198f81bd23e517c094284ee7578e230d649272d"
+
+[update]
+[update.modrinth]
+mod-id = "trhPSzT0"
+version = "7RvEr8Bc"
