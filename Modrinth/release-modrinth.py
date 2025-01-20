@@ -23,7 +23,9 @@ def run():
         # List to hold dependencies
         dependencies = []
 
-        skip_list = []
+        skip_list = ["spark-unforged.pw.toml",
+                     "raw-mouse-input-blessed-edition.pw.toml"
+                     ]
 
         # Loop through all TOML files in the 'mods' folder
         for mod in os.listdir(mods_directory):
