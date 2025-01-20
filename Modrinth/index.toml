@@ -103,11 +103,6 @@ hash = "209ecd4b8c1aa36632593550a95d3557815b221e57e4e4a6dd9789da33f950c3"
 metafile = true
 
 [[files]]
-file = "mods/clumps.pw.toml"
-hash = "066c88954b7b1df6097f6046ebab836fa535dc376d6bb63cdf26b18a3eb97873"
-metafile = true
-
-[[files]]
 file = "mods/configanytime.pw.toml"
 hash = "1fc324110a1bfe5d72e9fef20e8bc35fb8e549eaf3ab59eae0bb2f3bac94957e"
 metafile = true
