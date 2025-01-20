@@ -3,11 +3,11 @@ filename = "!Red-Core-MC-1.7-1.12-0.5.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7b948311155c1ba8d3f2b1a18a1caa751f1925d0"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/%21Red-Core-MC-1.7-1.12-0.5.1.jar"
+hash-format = "sha512"
+hash = "af65b6d31dbcd6acedc9d82b85b0536faf1355d58ecef9d9dbd4f04b231b8d5b00963390a6a69f13e69da44a052350fcdd3ecb885dbbb7f5d16e0193256c6b13"
 
 [update]
-[update.curseforge]
-file-id = 4883852
-project-id = 873867
+[update.modrinth]
+mod-id = "iRzbJEus"
+version = "EgeSQe7e"

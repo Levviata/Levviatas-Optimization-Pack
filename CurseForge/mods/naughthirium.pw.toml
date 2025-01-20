@@ -1,0 +1,13 @@
+name = "Naughthirium"
+filename = "naughthirium-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a230dd9136e66fd34fc42ee6188d53b76e29e15"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6000799
+project-id = 1153019

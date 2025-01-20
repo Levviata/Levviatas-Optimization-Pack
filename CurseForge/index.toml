@@ -98,60 +98,65 @@ hash = "300ef66cbf77dc0d9d7f8eec753756cf0cfde8390717998c8d103b56e3330ccb"
 
 [[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
-hash = "b36a9157adbdbb91cb714fabacaf55882eb6eea10de7ca7c793c58132e478201"
+hash = "38b628f90818b2e90a98f718b8841f02ae98516a56f821321857187a602e311f"
 metafile = true
 
 [[files]]
 file = "mods/better-biome-blend.pw.toml"
-hash = "209ecd4b8c1aa36632593550a95d3557815b221e57e4e4a6dd9789da33f950c3"
+hash = "4d2a7b1094737b39ed9cdfb29e83aedd0ac0addd72b41d5e6b129754e9eae316"
 metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "066c88954b7b1df6097f6046ebab836fa535dc376d6bb63cdf26b18a3eb97873"
+hash = "2acbe0f770a8303ecea88bc3ceef4ea6f76cb69206f15229647fb4773f0d9198"
 metafile = true
 
 [[files]]
 file = "mods/configanytime.pw.toml"
-hash = "1fc324110a1bfe5d72e9fef20e8bc35fb8e549eaf3ab59eae0bb2f3bac94957e"
+hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
 metafile = true
 
 [[files]]
 file = "mods/filedirector.pw.toml"
-hash = "a18f1ae78146b519e53439e7bbaf8b29c745e5a1bcd2d2f4214ae387a1f9448b"
+hash = "674a47dfdf5b2f7b85c5efade17c8a18a6d7ccddb1aaa5f2cfbc70b966a6cc73"
 metafile = true
 
 [[files]]
-file = "mods/mixinbooter.pw.toml"
-hash = "76db55796064afd2640a7d1f17751f30f565785bfc65d95df81a3ee730d94469"
+file = "mods/mixin-booter.pw.toml"
+hash = "6274c35ca28235ea8b574168f2c73b59c8045733bb7113e84b1eb6089ac2db35"
 metafile = true
 
 [[files]]
 file = "mods/mixinbootstrap.pw.toml"
-hash = "20cbf783aac49bf1f1cf7534a2e95e5b4e9c8e6d9cc143da34beae0dffb183ff"
+hash = "042225fa484051292c770a8b22003e8b02cb70bb5ece75277fc6db2e7c9f4a83"
 metafile = true
 
 [[files]]
 file = "mods/naughthirium.pw.toml"
-hash = "05ee2b45003f76c6fa318fa6158038f89777058f223131e5b31daaae623e1db0"
+hash = "8c322f78de2ebe71b903b2f9e022bc94d4ddb50cdc1baf6161aef8eee2595324"
 metafile = true
 
 [[files]]
 file = "mods/particle-culling.pw.toml"
-hash = "6f9699ef531cb96bc7deaf77196b8cbe63a32360cdfebea8ffb9a2f6dd6b87c4"
+hash = "07d424d548178e08ebfa96074d8d3483fa4214050bcdecc4f7ab43d5570acb67"
 metafile = true
 
 [[files]]
 file = "mods/raw-mouse-input-blessed-edition.pw.toml"
-hash = "dad7a65660617a637984ba417b432aed4fd607f1334b111308bc933340a605b9"
+hash = "ac556077826708da1060cf2d0ec97ea6edf41af1f44f0f9fc8ee3711ebafd736"
 metafile = true
 
 [[files]]
 file = "mods/red-core.pw.toml"
-hash = "93458d95ceddb688054981224e61b8952b4c4e5fbf9be4173af7ada49f4b877c"
+hash = "9962eda190032c87bd117baba7f4993338a1b3173a4d1211675a332011d5e4b0"
+metafile = true
+
+[[files]]
+file = "mods/universal-tweaks.pw.toml"
+hash = "4f2be4a9451756453a8c654b5cf127dc25427ede6b5dba469c138ac6023f8cd5"
 metafile = true
 
 [[files]]
 file = "mods/vintagefix.pw.toml"
-hash = "50866cb43ce184b741eb94a00a550b9271901c90112e22de2f44b050eba7ad4b"
+hash = "d4b265db96d54164964d11bddc7a1abc78777e56850b1d94683febb7d8009cf4"
 metafile = true

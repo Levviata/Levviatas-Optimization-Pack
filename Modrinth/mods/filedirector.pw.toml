@@ -3,11 +3,11 @@ filename = "!mod-director-launchwrapper-1.8.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e00b900dc224c816289fb66716429f57a86c88dd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4dRu1OUz/versions/b8pITnja/%21mod-director-launchwrapper-1.8.3.jar"
+hash-format = "sha512"
+hash = "341c304d4545b8cf7a0e1a2d5907bfdaf5675904b104844f019670647a15e2aabcff56c44f0860d3a70b333fc301d7261b3fe6ae66b41b3de72d72d7048b87d0"
 
 [update]
-[update.curseforge]
-file-id = 5272359
-project-id = 650242
+[update.modrinth]
+mod-id = "4dRu1OUz"
+version = "b8pITnja"

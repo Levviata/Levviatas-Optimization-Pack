@@ -1,13 +1,13 @@
 name = "Naughthirium"
 filename = "naughthirium-1.0.2.jar"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "0a230dd9136e66fd34fc42ee6188d53b76e29e15"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Iz4aO7EX/versions/V7nBrNwg/naughthirium-1.0.2.jar"
+hash-format = "sha512"
+hash = "9fe930691d72edc73ea993d14d7f7c1058097a6afb22c57b24fcb925ce9124e1c0c78d5e1486a2d924e88a8063fb84318d3dbedb61523285713db3836b923d7c"
 
 [update]
-[update.curseforge]
-file-id = 6000799
-project-id = 1153019
+[update.modrinth]
+mod-id = "Iz4aO7EX"
+version = "V7nBrNwg"
