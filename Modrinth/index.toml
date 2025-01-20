@@ -53,6 +53,10 @@ file = "config/mod-director/entity-culling.curse.json"
 hash = "5c3c88596606167e8937f76cbdf789c52299494a4c556e8a419f5bd1fdadbdf4"
 
 [[files]]
+file = "config/mod-director/fixeroo.curse.json"
+hash = "ea3bca047c16a98062e910c08a2183b9af2c6d7fddecc20f5f5d4273ae4a80d3"
+
+[[files]]
 file = "config/mod-director/icon.png"
 hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
 
@@ -144,7 +148,7 @@ metafile = true
 
 [[files]]
 file = "mods/sledgehammer.pw.toml"
-hash = "9b2776d206cd16e95ad60fc3687ba477b930c5ce9ebb3d6b2f91a8c751f603b4"
+hash = "ca49172c201ff977bc10b34bb9530835bfd2f12efc896fc3b4ac477a677eca8f"
 metafile = true
 
 [[files]]
