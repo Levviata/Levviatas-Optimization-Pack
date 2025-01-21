@@ -1,32 +1,26 @@
-import requests
+import toml
 import os
 from dotenv import load_dotenv
+from github import Github
 
 load_dotenv()
 # Authentication
 token = os.getenv('GITHUB_TOKEN')
-headers = {"Authorization": f"token {token}"}
 
-# Step 1: Create a release
-release_url = "https://api.github.com/repos/Levviata/Levviatas-Optimization-Pack/releases"
-release_data = {
-    "tag_name": "v1.0.0",
-    "target_commitish": "main",
-    "name": "v1.0.0",
-    "body": "Release notes for v1.0.0",
-    "draft": False,
-    "prerelease": False,
-}
-response = requests.post(release_url, json=release_data, headers=headers)
-response.raise_for_status()
-release_id = response.json()["id"]
+# Authenticate with your GitHub token
+g = Github(token)
 
-# Step 2: Upload the asset
-upload_url = f"https://uploads.github.com/repos/Levviata/Levviatas-Optimization-Pack/releases/{release_id}/assets?name={file_to_upload_modrinth}"
-with open(file_to_upload_modrinth, "rb") as file:
-    headers["Content-Type"] = "application/octet-stream"
-    upload_response = requests.post(upload_url, headers=headers, data=file)
-    upload_response.raise_for_status()
+# Get the repository object
+repo = g.get_repo(f"Levviata/Levviatas-Optimization-Pack")
+
+with open("../inherited_metadata.toml", 'r') as file:
+    metadata = toml.load(file)
+
+# Get the list of draft releases
+draft_releases = [release for release in repo.get_releases() if release.tag_name == "v" + metadata["version"]]
+
+for release in draft_releases:
+    print(f"Draft Release: {release.title} (Tag: {release.tag_name})")
 
 
 
