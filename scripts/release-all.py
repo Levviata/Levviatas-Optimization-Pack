@@ -59,6 +59,8 @@ hasRunModrinth = hasRunData["hasRunModrinth"]
 print("Starting Phase 5")
 run_script(release_modrinth_path)
 
+run_script(release_github_path)
+
 # Step 6: Clean data (to avoid using it in case we error out)
 print("Starting Phase 6")
 run_script(clean_data_path)
