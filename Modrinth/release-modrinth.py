@@ -6,7 +6,6 @@ import toml
 from pathlib import Path
 import json
 
-API_URL = 'https://api.modrinth.com/v2'
 # Load environment variables from the .env file
 load_dotenv()
 
