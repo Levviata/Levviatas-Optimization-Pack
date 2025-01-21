@@ -56,7 +56,7 @@ HEADERS = {
 # Request body (modify the fields as needed)
 payload = {
     "description": summary,
-    "body": "test"
+    "body": description
 }
 
 # Make the PATCH request
