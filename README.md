@@ -15,7 +15,7 @@ the pack is named "Optimum" internally)
 ## Features
 **Mods included in the mod pack are the following (embedded and external):**
 - **Core:**
-  - [Alfheim (lighting engine)](https://modrinth.com/mod/alfheim-lighting-engine)
+  - [Alfheim](https://modrinth.com/mod/alfheim-lighting-engine) (lighting engine)
     - Completely reworks and optimizes the lighting engine
   - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) + [Naughtirium](https://modrinth.com/mod/naughthirium) (render engine) -> _NOTE: Naughtirium enables compat with CensoredASM and Nothirium, hence why it's here_
     - Reworks and (hopefully) optimizes chunk rendering
