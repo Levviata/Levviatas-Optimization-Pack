@@ -1,6 +1,6 @@
 import subprocess
 
-export_modrinth_path = "../Modrinth/export-modrinth.py"
+export_modrinth_path = "../Modrinth/scripts/export-modrinth.py"
 
 def run_script(script_path):
     """
