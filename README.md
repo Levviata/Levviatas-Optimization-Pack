@@ -63,7 +63,7 @@ This mod pack uses [File Director](https://modrinth.com/mod/filedirector) to dow
 
 ## Performance Comparison
 TODO: add images for comparison (against vanilla, etc.)
-also check how Entity Cull (arr) differs from another entity cull (tr7zw)
+also check how Entity Cull (current) differs from the other Entity Cull (by tr7zw)
 
 ## Known Issues
 **VintageFix:**
