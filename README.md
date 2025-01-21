@@ -87,7 +87,7 @@ also check how Entity Cull (current) differs from the other Entity Cull (by tr7z
 ### **Quality of Life or Gameplay**
 **Quality of Life Mods:**
 - **[Raw Mouse Input](https://modrinth.com/mod/raw-mouse-input-blessed-edition):**
-  - Make Minecraft use your mouse's raw input. This might be a problem if your mouse is old, an office mouse, low dpi, etc. You can also adjust the mouse sensitive through Minecraft to around half (50%), and it will be about the same.
+  - Make Minecraft use your mouse's raw input to fix sensitivity on higher DPI. You can also adjust the mouse sensitive through Minecraft to around half (50%), and it will be about the same.
 - **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items):**
   - Just Enough Items but for 1.12.2. Optimizes memory usage, load time, and how the GUI is rendered, mod is also actively maintained.
  
