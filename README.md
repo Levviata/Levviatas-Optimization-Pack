@@ -82,7 +82,7 @@ also check how Entity Cull (current) differs from the other Entity Cull (by tr7z
 
 **Non-essential Performance Mods**:
 - [Entity Distance](https://www.curseforge.com/minecraft/mc-mods/entity-distance-1-12-2):
-  - Adds a configurable
+  - Adds a configuration for reducing how far your client renders and tracks certain entities (similar to "Simulation Distance" Minecraft configuration in modern versions)
 
 ### **Quality of Life or Gameplay**
 **Quality of Life Mods:**
