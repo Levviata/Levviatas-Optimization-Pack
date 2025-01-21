@@ -1,5 +1,5 @@
 name = "Optimum"
 author = "Levviata"
-version = "0.9.1"
+version = "0.1.0"
 forge = "14.23.5.2860"
 minecraft = "1.12.2"
