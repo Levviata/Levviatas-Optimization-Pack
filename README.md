@@ -8,32 +8,33 @@ Feel free to add more mods when playing standalone (you can also add this modpac
 ## Features
 **Mods added are the following (embedded and external):**
 - **Core:**
-  - Alfheim (lighting engine)
-    - Completely reworks and optimizes the lighting engine 
-  - Nothirium + Naughtirium (render engine) -> _NOTE: Naughtirium enables compat with CensoredASM and Nothirium, hence why it's here_
-    - Reworks chunk rendering
-  - CensoredASM (optimizes ram, fixes crashes, and optimizes code in general)
+  - [Alfheim (lighting engine)](https://modrinth.com/mod/alfheim-lighting-engine)
+    - Completely reworks and optimizes the lighting engine
+  - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) + [Naughtirium](https://modrinth.com/mod/naughthirium) (render engine) -> _NOTE: Naughtirium enables compat with CensoredASM and Nothirium, hence why it's here_
+    - Reworks and (hopefully) optimizes chunk rendering
+  - [CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm) (optimizes ram, fixes crashes, and optimizes code in general)
     - Reworks and optimizes a lot of Minecraft's code with positive results
-  - Entity Culling (1.12.2-only maintained entity culling)
-    - Hides entities that aren't visible on you screen
-  - Universal Tweaks (general tweaks/bugfixes)
+  - [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entity-culling) (1.12.2-only maintained entity culling)
+    - Hides entities that aren't visible on your screen
+  - [Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks) (general tweaks/bugfixes)
     - A LOT of bugfixes and tweaks, positive results overall
-  - VintageFix (FoamFix replacer)
-    - Replaces foamfix, improves memory usage and load times
-  - Particle Culling (less particle lag)
+  - [VintageFix](https://modrinth.com/mod/vintagefix) (FoamFix replacer)
+    - Replaces and improves upon FoamFix. Improves memory usage and load times
+  - [Particle Culling](https://www.curseforge.com/minecraft/mc-mods/particle-culling) (less particle lag)
     - Hides particles that aren't visible on your screen
-  - Mixin Booter + Mixin Bootstrap (core library)
-    - Handles code injection + a lot of other nerdy things
+  - [MixinBooter](https://modrinth.com/mod/mixinbooter) + [MixinBootstrap](https://modrinth.com/mod/mixinbootstrap) (core library)
+    - Handles code injection and a lot of other nerdy things
 - **Minor Fixes:**
-  - Better Biome Blend (biome color blender optimizer)
-  - Fixeroo (Clumps replacer)
-    - Replaces Clumps, doesnt add a new entity like Clumps does along other general misc optimizations
+  - [Better Biome Blend](https://www.curseforge.com/minecraft/mc-mods/better-biome-blend) (biome color blender optimizer)
+    - Optimizes biome color blending code
+  - [Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump) (Clumps replacer)
+    - Replaces Clumps. Doesn't add a new entity like Clumps does, apart from that it adds a bunch of random optimizations
 - **Utility or Library:**
-  - File director (utility)
+  - [File director](https://modrinth.com/mod/filedirector) (utility)
     - Moves, downloads, and handles files for the modpack
-  - ConfigAnyTime (library)
-  - RedCore (library)
-  - RenderLib (library)
+  - [ConfigAnyTime](https://www.curseforge.com/minecraft/mc-mods/configanytime) (library)
+  - [RedCore](https://www.curseforge.com/minecraft/mc-mods/red-core) (library)
+  - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib) (library)
 
 ### Notes:
 
@@ -56,31 +57,33 @@ This modpack uses [File Director](https://modrinth.com/mod/filedirector) to down
 TODO: add images for comparation (against vanilla,etc.)
 also check how Entity Cull (arr) differs from other entity cull (tr7zw)
 
-## Issues
+## Known Issues
 **VintageFix:**
 - [Error accessing resource pack on classpath](https://github.com/embeddedt/VintageFix/issues/117) (can be safely ignored)
 
 ## Other Mods / Useful Resources
-<sub>_Other useful mods that aren't extremely important in general and the resources/lists used to make this modpack._</sub>
+<sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
 
-**Peformance mod lists used/referenced:**
-- [UtilMods](https://github.com/TheUsefulLists/UsefulMods/)
-- [Radk6's Peformance Mod List](https://github.com/Radk6/MC-Optimization-Guide)
+### **Peformance**
+- **Peformance mod lists used/referenced:**
+  - [UtilMods](https://github.com/TheUsefulLists/UsefulMods/)
+  - [Radk6's Peformance Mod List](https://github.com/Radk6/MC-Optimization-Guide)
 
-**Java Arguments:
+**Java Arguments**:
 - [DataDalton's Arguments](https://github.com/DataDalton/Minecraft-Performance-Guide/blob/fe8d8fbfebe129a38a67c56d5452e871e48580bc/Java%20Arguments/README.md)
 
-**Quality of Life Mods:**
-- **Raw Mouse Input:**
-  - Makes Minecraft use your mouse's raw input. This might be a problem if your mouse is old, an office mouse, low dpi, etc. Remove mod or adjust mouse sensitivity in options if this is an issue to you.
-- **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items):**
-  - Just Enough Items but for 1.12.2,
- 
 **Non-essential Performance Mods**:
 - [Entity Distance](https://www.curseforge.com/minecraft/mc-mods/entity-distance-1-12-2):
   - Adds a configurable
 
-**
+### **Quality of Life or Gameplay**
+**Quality of Life Mods:**
+- **[Raw Mouse Input](https://modrinth.com/mod/raw-mouse-input-blessed-edition):**
+  - Makes Minecraft use your mouse's raw input. This might be a problem if your mouse is old, an office mouse, low dpi, etc. You can also adjust the mouse sensitive through Minecraft to around half (50%), and it will be about the same.
+- **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items):**
+  - Just Enough Items but for 1.12.2. Optimizes memory usage, load time, and how the GUI is rendered, mod is also actively maintained.
+ 
+
 
 ## Links
 Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack (unlisted visibility)
