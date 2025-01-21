@@ -1,9 +1,9 @@
-import subprocess
 import os
 import requests
 from dotenv import load_dotenv
 from pathlib import Path
 import json
+import toml
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -20,7 +20,7 @@ def run():
 
         hasRunModrinth = hasRunData["hasRunModrinth"]
         if hasRunModrinth:
-            os.chdir('../Modrinth')
+            os.chdir('..')
 
             file_to_upload = None
 
@@ -33,17 +33,18 @@ def run():
                 print("No file starting with 'Optimum' found.")
                 exit()
 
-            with open("../data/project_data.json", "r") as file:
-                project_data = json.load(file)
+            # Load data from pack.toml
+            with open("../Modrinth/pack.toml", 'r') as file:
+                modrinth_project_data = toml.load(file)
 
 
             with open("../data/dependencies_modrinth.json", "r") as file:
                 data = json.load(file)
 
             # Extract data from the TOML file
-            name = project_data['name']
-            version = project_data['version']
-            minecraft_version = project_data['versions']['minecraft']
+            name = modrinth_project_data['name']
+            version = modrinth_project_data['version']
+            minecraft_version = modrinth_project_data['versions']['minecraft']
 
             # Step 4: Create the data for the request using the extracted information
             data = {

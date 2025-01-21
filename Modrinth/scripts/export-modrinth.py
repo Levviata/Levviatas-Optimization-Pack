@@ -27,12 +27,16 @@ def run_export():
         print(f"An unexpected error occurred: {e}")
         return False
 
-os.chdir('../Modrinth')
+os.chdir('..')
 
 # Step 1: Execute the Modrinth export command
 hasRun = run_export()
 
 if hasRun:
+    data = {"hasRunModrinth": True}
+    # Check if run, true = prompt user to check files
+    with open("../data/has_run.json", "w") as file:
+        json.dump(data, file)
     # Pause execution and wait for user input
     input("Exported modrinth modpack, please check the contents. Run enter when finished to upload.")
 if not hasRun:
