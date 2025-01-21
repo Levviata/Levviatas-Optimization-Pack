@@ -29,3 +29,5 @@ template: |
   ## Changes
 
   $CHANGES
+  
+  <sub>$RESOLVED_VERSION</sub>
