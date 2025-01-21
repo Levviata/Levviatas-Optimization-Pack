@@ -7,15 +7,15 @@ from pathlib import Path
 import json
 
 API_URL = 'https://api.modrinth.com/v2'
+# Load environment variables from the .env file
+load_dotenv()
+
+# Access the variables
+token = os.getenv('MODRINTH_TOKEN')
+project_id = os.getenv('MODRINTH_PROJECT_ID')
 
 def run():
     try:
-        # Load environment variables from the .env file
-        load_dotenv()
-
-        # Access the variables
-        token = os.getenv('MODRINTH_TOKEN')
-        project_id = os.getenv('MODRINTH_PROJECT_ID')
 
         # Directory where your mods are located
         mods_directory = "./mods"
