@@ -2,3 +2,4 @@
 # See https://git-scm.com/docs/gitignore
 
 *.py
+/scripts/
