@@ -1,7 +1,7 @@
 # Levviatas-Optimization-Modpack
-Yet another modpack that optimizes Minecraft 1.12.2
+A modpack that optimizes Minecraft 1.12.2 (only) while adding no other gameplay or QoL.
 
-A modpack that includes optimization mods from [Useful Mods List](https://github.com/TheUsefulLists/UsefulMods/blob/main/Performance/Performance112.md) without any other bloat.
+Feel free to add more mods into this (BUT adding into existing modpacks or worlds might cause issues, if you find any please [open an issue on the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)).
 
 _(also goes under the name "Optimum")_
  
