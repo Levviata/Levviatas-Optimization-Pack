@@ -1,12 +1,18 @@
 # Levviata's Optimization Pack
-A Forge/~~Cleanroom~~ (Cleanroom support is planned) modpack that optimizes Minecraft 1.12.2 (no other versions) while adding no other gameplay or QoL features.
+A Forge/~~Cleanroom~~ (Cleanroom support is planned) mod pack that optimizes Minecraft 1.12.2
+(no other versions) while adding no other gameplay or QoL features.
 
-Feel free to add more mods when playing standalone (you can also add this modpack's config and mods into existing modpacks or playthroughs but it MIGHT cause issues, if you find any please [open an issue on the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)).
+Feel free to add more mods when playing standalone.
+(You can also add this mod pack's config and mods into existing mod packs or playthroughs,
+but it MIGHT cause issues if you find any,
+please [open an issue on the tracker.)](https://github.com/Levviata/Levviatas-Optimization-Pack/issues))
 
-(the modpack name on the webs (modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack" for simplicity and visibility, the pack is named "Optimum" internally)
+(the mod pack name on the web (modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack"
+for simplicity and visibility,
+the pack is named "Optimum" internally)
 
 ## Features
-**Mods added are the following (embedded and external):**
+**Mods included in the mod pack are the following (embedded and external):**
 - **Core:**
   - [Alfheim (lighting engine)](https://modrinth.com/mod/alfheim-lighting-engine)
     - Completely reworks and optimizes the lighting engine
@@ -31,7 +37,7 @@ Feel free to add more mods when playing standalone (you can also add this modpac
     - Replaces Clumps. Doesn't add a new entity like Clumps does, apart from that it adds a bunch of random optimizations
 - **Utility or Library:**
   - [File director](https://modrinth.com/mod/filedirector) (utility)
-    - Moves, downloads, and handles files for the modpack
+    - Moves, downloads, and handles files for the mod pack
   - [ConfigAnyTime](https://www.curseforge.com/minecraft/mc-mods/configanytime) (library)
   - [RedCore](https://www.curseforge.com/minecraft/mc-mods/red-core) (library)
   - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib) (library)
@@ -43,31 +49,32 @@ Feel free to add more mods when playing standalone (you can also add this modpac
 - There is also a bunch of other similar changes, edit the config as you wish.
 
 ## External Mods / CurseForge Mods
-This modpack uses [File Director](https://modrinth.com/mod/filedirector) to download these mods from CurseForge:
+This mod pack uses [File Director](https://modrinth.com/mod/filedirector) to download these mods from CurseForge:
 - [Mixin 0.7-0.8 Compatibility](https://www.curseforge.com/minecraft/mc-mods/mixin-0-7-0-8-compatibility) (optional, is helpful only on specific occasions)
 - [Censored ASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)
 - [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entity-culling)
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace)
 - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium)
 - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib)
+- [Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)
 
 ### NOTE: When you first download these mods your game WILL crash, simply reboot your game and no more errors/crashes should appear ([issue on GitHub](https://github.com/TerraFirmaCraft-The-Final-Frontier/FileDirector/issues/31) + [reason why this unavoidably happens](https://github.com/Levviata/Levviatas-Optimization-Pack-public/blob/72e72c417410e9ee3f867704bf0cac6d576c6bf1/Misc/filedirectorissue.png)).
 
-## Performance Comparation
-TODO: add images for comparation (against vanilla,etc.)
-also check how Entity Cull (arr) differs from other entity cull (tr7zw)
+## Performance Comparison
+TODO: add images for comparison (against vanilla, etc.)
+also check how Entity Cull (arr) differs from another entity cull (tr7zw)
 
 ## Known Issues
 **VintageFix:**
 - [Error accessing resource pack on classpath](https://github.com/embeddedt/VintageFix/issues/117) (can be safely ignored)
 
 ## Other Mods / Useful Resources
-<sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
+<sub>_Other useful mods that aren't essential and the resources/lists used to make this mod pack._</sub>
 
-### **Peformance**
-- **Peformance mod lists used/referenced:**
+### **Performance**
+- **Performance mod lists used/referenced:**
   - [UtilMods](https://github.com/TheUsefulLists/UsefulMods/)
-  - [Radk6's Peformance Mod List](https://github.com/Radk6/MC-Optimization-Guide)
+  - [Radk6's Performance Mod List](https://github.com/Radk6/MC-Optimization-Guide)
 
 **Java Arguments**:
 - [DataDalton's Arguments](https://github.com/DataDalton/Minecraft-Performance-Guide/blob/fe8d8fbfebe129a38a67c56d5452e871e48580bc/Java%20Arguments/README.md)
@@ -79,7 +86,7 @@ also check how Entity Cull (arr) differs from other entity cull (tr7zw)
 ### **Quality of Life or Gameplay**
 **Quality of Life Mods:**
 - **[Raw Mouse Input](https://modrinth.com/mod/raw-mouse-input-blessed-edition):**
-  - Makes Minecraft use your mouse's raw input. This might be a problem if your mouse is old, an office mouse, low dpi, etc. You can also adjust the mouse sensitive through Minecraft to around half (50%), and it will be about the same.
+  - Make Minecraft use your mouse's raw input. This might be a problem if your mouse is old, an office mouse, low dpi, etc. You can also adjust the mouse sensitive through Minecraft to around half (50%), and it will be about the same.
 - **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items):**
   - Just Enough Items but for 1.12.2. Optimizes memory usage, load time, and how the GUI is rendered, mod is also actively maintained.
  
