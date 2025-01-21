@@ -1,5 +1,5 @@
 # Levviata's Optimization Pack
-A modpack that optimizes Minecraft 1.12.2 (no other versions) while adding no other gameplay or QoL features.
+A Forge/~~Cleanroom~~ (Cleanroom support is planned) modpack that optimizes Minecraft 1.12.2 (no other versions) while adding no other gameplay or QoL features.
 
 Feel free to add more mods into this (BUT adding into existing modpacks or worlds might cause issues, if you find any please [open an issue on the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)).
 
