@@ -1,7 +1,7 @@
 # Levviata's Optimization Pack
 A Forge/~~Cleanroom~~ (Cleanroom support is planned) modpack that optimizes Minecraft 1.12.2 (no other versions) while adding no other gameplay or QoL features.
 
-Feel free to add more mods into this (BUT adding into existing modpacks or worlds MIGHT cause issues, if you find any please [open an issue on the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)).
+Feel free to add more mods when playing standalone (you can also add this modpack's config and mods into existing modpacks or playthroughs but it MIGHT cause issues, if you find any please [open an issue on the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)).
 
 (the modpack name on the webs (modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack" for simplicity and visibility, the pack is named "Optimum" internally)
 
