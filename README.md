@@ -1,9 +1,9 @@
 # Levviata's Optimization Pack
 A Forge/~~Cleanroom~~ (Cleanroom support is planned) modpack that optimizes Minecraft 1.12.2 (no other versions) while adding no other gameplay or QoL features.
 
-Feel free to add more mods into this (BUT adding into existing modpacks or worlds might cause issues, if you find any please [open an issue on the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)).
+Feel free to add more mods into this (BUT adding into existing modpacks or worlds MIGHT cause issues, if you find any please [open an issue on the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)).
 
-_(also goes under the name "Optimum")_
+(the modpack name on the webs (modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack" for simplicity and visibility, the pack is named "Optimum" internally)
 
 ## Features
 **Mods added are the following (embedded and external):**
@@ -73,7 +73,9 @@ also check how Entity Cull (arr) differs from other entity cull (tr7zw)
 **Quality of Life Mods:**
 - **Raw Mouse Input:**
   - Makes Minecraft use your mouse's raw input. This might be a problem if your mouse is old, an office mouse, low dpi, etc. Remove mod or adjust mouse sensitivity in options if this is an issue to you.
-
+- **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items):**
+  - Just Enough Items but for 1.12.2,
+ 
 **Non-essential Performance Mods**:
 - [Entity Distance](https://www.curseforge.com/minecraft/mc-mods/entity-distance-1-12-2):
   - Adds a configurable
@@ -81,7 +83,7 @@ also check how Entity Cull (arr) differs from other entity cull (tr7zw)
 **
 
 ## Links
-Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack
+Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack (unlisted visibility)
 
 CurseForge: https://legacy.curseforge.com/minecraft/modpacks/levviatas-optimization-pack (not listed)
 
