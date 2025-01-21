@@ -84,6 +84,9 @@ also check how Entity Cull (arr) differs from other entity cull (tr7zw)
   - Just Enough Items but for 1.12.2. Optimizes memory usage, load time, and how the GUI is rendered, mod is also actively maintained.
  
 ### **Utility**
+**Mod pack utils:**
+- **[Multiblocked](https://www.curseforge.com/minecraft/mc-mods/multiblocked):**
+  - Multiblock tweaker and library. Looks amazing for multiblock machines/structures/etc.
 
 
 ## Links
