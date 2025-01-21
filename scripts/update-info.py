@@ -12,9 +12,8 @@ project_id = os.getenv('MODRINTH_PROJECT_ID')
 # API URL (use the staging URL for testing)
 API_URL = f"https://api.modrinth.com/v2/project/{project_id}"
 
-summary_path = "SUMMARY.md"
-description_path = "README.md"
-
+summary_path = "../SUMMARY.md"
+description_path = "../README.md"
 
 def read_markdown_file(file_path):
     """

@@ -1,4 +1,5 @@
 /.idea/
+/data/
 .env
 
 # Exclude exported CurseForge zip files
