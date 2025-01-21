@@ -91,7 +91,7 @@ Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack (unlisted vis
 CurseForge: https://legacy.curseforge.com/minecraft/modpacks/levviatas-optimization-pack (not listed)
 
 ## Credits
-Credits to every mod author included (or were included) in the pack for their amazing optimizations.
+Credits to every mod's author included (or were included) in the pack for their amazing optimizations.
 
 ## License
 This project is licensed with [BSD-3-Clause license](https://github.com/Levviata/Levviatas-Optimization-Pack-public?tab=BSD-3-Clause-1-ov-file#readme).
