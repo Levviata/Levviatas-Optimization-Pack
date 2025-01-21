@@ -1,1 +1,1 @@
-A Forge 1.12.2 modpack with pure optimizations and no other bloat.
+A Forge 1.12.2 modpack with pure optimizations and nothing else.
