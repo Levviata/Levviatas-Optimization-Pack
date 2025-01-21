@@ -1,1 +1,1 @@
-A Forge modpack that optimizes Minecraft 1.12.2 while adding no other gameplay or QoL features.
+A Forge 1.12.2 modpack with pure optimizations and no other bloat.
