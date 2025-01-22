@@ -17,7 +17,7 @@ the pack is named "Optimum" internally)
 - **Core:**
   - [Alfheim](https://modrinth.com/mod/alfheim-lighting-engine) (lighting engine)
     - Completely reworks and optimizes the lighting engine
-  - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) + [Naughtirium](https://modrinth.com/mod/naughthirium) (render engine) -> _NOTE: Naughtirium enables compat with CensoredASM and Nothirium, hence why it's here_
+  - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) + [Naughtirium](https://modrinth.com/mod/naughthirium) (render engine) -> _NOTE: Naughtirium adds compatibility with CensoredASM and Nothirium, it is needed._
     - Reworks and (hopefully) optimizes chunk rendering
   - [CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm) (optimizes ram, fixes crashes, and optimizes code in general)
     - Reworks and optimizes a lot of Minecraft's code with positive results
