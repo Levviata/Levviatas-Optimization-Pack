@@ -1,19 +1,19 @@
 # Levviata's Optimization Pack
-A Forge/~~Cleanroom~~ (Cleanroom support is planned) mod pack that optimizes Minecraft 1.12.2
+A Forge/~~Cleanroom~~ (Cleanroom support is planned) modpack that optimizes Minecraft 1.12.2
 (no other versions) while adding no other gameplay or QoL features.
 
 Feel free to add more mods when playing standalone (e.i: singleplayer).
-Adding this mod pack's mods and config to existing packs or playthroughs MIGHT cause issues
+Adding this modpack's mods and config to existing packs or playthroughs MIGHT cause issues
 (crashes, world corruption, etc.) but it generally shouldn't.
 If you see any,
 please [create an issue on the tracker.](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)
 
-(the mod pack name on the web (modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack"
+(the modpack name on the web (modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack"
 for simplicity and visibility,
 the pack is named "Optimum" internally)
 
 ## Features
-**Mods included in the mod pack are the following (embedded and external):**
+**Mods included in the modpack are the following (embedded and external):**
 - **Core:**
   - [Alfheim](https://modrinth.com/mod/alfheim-lighting-engine) (lighting engine)
     - Completely reworks and optimizes the lighting engine
@@ -38,7 +38,7 @@ the pack is named "Optimum" internally)
     - Replaces Clumps. Doesn't add a new entity like Clumps does, apart from that it adds a bunch of random optimizations
 - **Utility or Library:**
   - [File director](https://modrinth.com/mod/filedirector) (utility)
-    - Moves, downloads, and handles files for the mod pack
+    - Moves, downloads, and handles files for the modpack
   - [ConfigAnyTime](https://www.curseforge.com/minecraft/mc-mods/configanytime) (library)
   - [RedCore](https://www.curseforge.com/minecraft/mc-mods/red-core) (library)
   - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib) (library)
@@ -47,10 +47,10 @@ the pack is named "Optimum" internally)
 
 **Universal Tweaks:**
 - Changes the way auto jumping works. If auto jumping is enabled, it makes you automatically step up a whole block (like if you were riding a horse) instead of jumping near a block. To disable -> B:"Auto Jump Replacement"=false (Tweaks.cfg)
-- There is also a bunch of other similar changes, edit the config as you wish.
+- There is also a bunch of other similar changes, edit the config as you wish (this will be removed from the modpack soon)
 
 ## External Mods / CurseForge Mods
-This mod pack uses [File Director](https://modrinth.com/mod/filedirector) to download these mods from CurseForge:
+This modpack uses [File Director](https://modrinth.com/mod/filedirector) to download these mods from CurseForge:
 - [Mixin 0.7-0.8 Compatibility](https://www.curseforge.com/minecraft/mc-mods/mixin-0-7-0-8-compatibility) (optional, is helpful only on specific occasions)
 - [Censored ASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)
 - [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entity-culling)
@@ -70,7 +70,7 @@ also check how Entity Cull (current) differs from the other Entity Cull (by tr7z
 - [Error accessing resource pack on classpath](https://github.com/embeddedt/VintageFix/issues/117) (can be safely ignored)
 
 ## Other Mods / Useful Resources
-<sub>_Other useful mods that aren't essential and the resources/lists used to make this mod pack._</sub>
+<sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
 
 ### **Performance**
 - **Performance mod lists used/referenced:**
@@ -92,7 +92,7 @@ also check how Entity Cull (current) differs from the other Entity Cull (by tr7z
   - Just Enough Items but for 1.12.2. Optimizes memory usage, load time, and how the GUI is rendered, mod is also actively maintained.
  
 ### **Utility**
-**Mod pack utils:**
+**Modpack utils:**
 - **[Multiblocked](https://www.curseforge.com/minecraft/mc-mods/multiblocked):**
   - Multiblock tweaker and library. Looks amazing for multiblock machines/structures/etc.
 
