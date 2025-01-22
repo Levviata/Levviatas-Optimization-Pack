@@ -93,6 +93,11 @@ hash = "91c2d6674cd58f291e9bef17ee19fa0c4f44d4a3f19db8ff80b03f1b797b541f"
 metafile = true
 
 [[files]]
+file = "mods/flare.pw.toml"
+hash = "24fa50f6958381fcf97d902da91dcfec37b9cca60b6eb08f796f68e442227466"
+metafile = true
+
+[[files]]
 file = "mods/lolasm.pw.toml"
 hash = "d2c61d32b03991d8aa5538fa36e99e84b4932bfacd25df098e74af26af949e41"
 metafile = true
