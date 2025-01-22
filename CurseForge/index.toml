@@ -93,11 +93,6 @@ hash = "91c2d6674cd58f291e9bef17ee19fa0c4f44d4a3f19db8ff80b03f1b797b541f"
 metafile = true
 
 [[files]]
-file = "mods/filedirector.pw.toml"
-hash = "674a47dfdf5b2f7b85c5efade17c8a18a6d7ccddb1aaa5f2cfbc70b966a6cc73"
-metafile = true
-
-[[files]]
 file = "mods/lolasm.pw.toml"
 hash = "d2c61d32b03991d8aa5538fa36e99e84b4932bfacd25df098e74af26af949e41"
 metafile = true
