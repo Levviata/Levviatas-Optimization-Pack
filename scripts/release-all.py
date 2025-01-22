@@ -1,7 +1,7 @@
 import subprocess
 import json
 
-update_info_path = "../scripts/update-info.py"
+update_info_path = "../Modrinth/scripts/update-modrinth-info.py"
 
 set_metadata_path = "../scripts/set-metadata-all.py"
 
@@ -35,7 +35,7 @@ def run_script(script_path):
 
 # Step 1: Update summary and description of our project on the websites
 print("Starting Phase 1")
-run_script(update_info_path)
+run_script(update_info_all_path)
 
 # Step 2: Set inherited metadata
 print("Starting Phase 2")
