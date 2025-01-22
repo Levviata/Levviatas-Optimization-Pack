@@ -8,7 +8,7 @@ mods_directory = "../Modrinth/mods"
 # List to hold dependencies
 dependencies = []
 
-skip_list = ["spark-unforged.pw.toml",
+skip_list = ["flare.pw.toml",
              "raw-mouse-input-blessed-edition.pw.toml"
              ]
 

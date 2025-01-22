@@ -1,0 +1,13 @@
+name = "Flare"
+filename = "flare-0.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rWzXKfPV/versions/oGZXbgiE/flare-0.2.1.jar"
+hash-format = "sha512"
+hash = "84ce2e590d78dc3d878a0638999a9c4ffc5f2c98cfcad7cbaf56daaca313bca5e1f735e7ce0d4a2b036e7a18dc6462699466ed3907ce699d2d933debfa90c999"
+
+[update]
+[update.modrinth]
+mod-id = "rWzXKfPV"
+version = "oGZXbgiE"
