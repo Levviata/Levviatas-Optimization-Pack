@@ -37,10 +37,10 @@ def read_markdown_file(file_path):
             return file.read()
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.")
-        return None
+        exit()
     except Exception as e:
         print(f"An error occurred: {e}")
-        return None
+        exit()
 
 
 summary = read_markdown_file(summary_path)
