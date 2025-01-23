@@ -1,6 +1,6 @@
 import subprocess
 
-export_modrinth_path = "../Modrinth/scripts/export-modrinth.py"
+
 
 def run_script(script_path):
     """
@@ -20,4 +20,3 @@ def run_script(script_path):
         print(f"Script execution failed with error: {e}")
         return e.returncode
 
-run_script(export_modrinth_path)

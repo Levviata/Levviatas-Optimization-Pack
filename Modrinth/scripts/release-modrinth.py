@@ -15,12 +15,12 @@ project_id = os.getenv('MODRINTH_PROJECT_ID')
 def run():
     try:
         # Check if run, true = prompt user to check files
-        with open("../data/has_run.json", "r") as file:
+        with open("../data/has_run_modrinth.json", "r") as file:
             hasRunData = json.load(file)
 
         hasRunModrinth = hasRunData["hasRunModrinth"]
         if hasRunModrinth:
-            os.chdir('..')
+            os.chdir('../Modrinth')
 
             file_to_upload = None
 

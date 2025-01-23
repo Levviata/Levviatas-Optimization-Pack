@@ -9,6 +9,7 @@ def run_export():
     Returns:
         bool: True if the command runs successfully, False otherwise.
     """
+    print(os.getcwd())
     command_modrinth = ["packwiz.exe", "modrinth", "export"]
 
     try:
@@ -27,7 +28,7 @@ def run_export():
         print(f"An unexpected error occurred: {e}")
         return False
 
-os.chdir('..')
+os.chdir('../Modrinth')
 
 # Step 1: Execute the Modrinth export command
 hasRun = run_export()
@@ -35,7 +36,7 @@ hasRun = run_export()
 if hasRun:
     data = {"hasRunModrinth": True}
     # Check if run, true = prompt user to check files
-    with open("../data/has_run.json", "w") as file:
+    with open("../data/has_run_modrinth.json", "w") as file:
         json.dump(data, file)
     # Pause execution and wait for user input
     input("Exported modrinth modpack, please check the contents. Run enter when finished to upload.")
