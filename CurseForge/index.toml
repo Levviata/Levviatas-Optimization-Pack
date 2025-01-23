@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE.md"
+hash = "01e22c13e1eba21d9fa0790ae648a2212a51924c30a1d1e667ab515e71a1e64a"
+
+[[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
 hash = "e6134ac325ab55e8d7b4e2e947cea668976c88a4dd64c7d5c7bc73b3ff1826de"
 
@@ -25,10 +29,6 @@ file = "config/entityculling.cfg"
 hash = "8a1dc449204426365e60b56c217b6b279df87156c054500037aca90500fe1638"
 
 [[files]]
-file = "config/fastfurnace.cfg"
-hash = "7c8db5e40867d4adc12f920ed5f22a7194d8cb68da287108d92af74604592c9f"
-
-[[files]]
 file = "config/forge.cfg"
 hash = "0faa0fe45f52ce72ca55655dc7c476e823fc5ad50cb48373e086f3d513a9d592"
 
@@ -45,32 +45,12 @@ file = "config/loliasm/methods-stable_39.csv"
 hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
 
 [[files]]
-file = "config/mod-director/censored-asm.curse.json"
-hash = "37f0d196f221e55a22905f28059e36787409c8ad5d3106eed41f868a34b596ad"
-
-[[files]]
-file = "config/mod-director/entity-culling.curse.json"
-hash = "5c3c88596606167e8937f76cbdf789c52299494a4c556e8a419f5bd1fdadbdf4"
-
-[[files]]
-file = "config/mod-director/fastfurnace.curse.json"
-hash = "c022f41db51699cf7b8fdfbf49bc2890b2596b9c52680e471fce474140b68298"
-
-[[files]]
 file = "config/mod-director/icon.png"
 hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
 
 [[files]]
-file = "config/mod-director/libs.bundle.json"
-hash = "9af6afc94d947bad6645818c761134d4f2442c43623eba891b6fa18a5ab4fd54"
-
-[[files]]
 file = "config/mod-director/modpack.json"
 hash = "695a329832646b5209dedd1e290600b369f11f38b78dbbec9533209c6d31b6cc"
-
-[[files]]
-file = "config/mod-director/nothirium.curse.json"
-hash = "4f897af3f1a2c08febeb841231a121d96a51088a717dc54558109a618066f35c"
 
 [[files]]
 file = "config/nothirium.cfg"
@@ -79,10 +59,6 @@ hash = "bd8a742bf6d3b80365b450e7674cc0edd6be5e140ca6ed896488d8f6ae3278ba"
 [[files]]
 file = "config/particleculling.cfg"
 hash = "279e74b198c09a0c530f7f02814f63f0667de5f6c01f50d081cba9447e422a52"
-
-[[files]]
-file = "config/rawinput.cfg"
-hash = "c751a117d06cd880ac48d8561ba97d4a626c66c0819b0fcd07e271bb2b8faab7"
 
 [[files]]
 file = "config/renderlib.cfg"
@@ -107,18 +83,28 @@ hash = "4d2a7b1094737b39ed9cdfb29e83aedd0ac0addd72b41d5e6b129754e9eae316"
 metafile = true
 
 [[files]]
-file = "mods/clumps.pw.toml"
-hash = "2acbe0f770a8303ecea88bc3ceef4ea6f76cb69206f15229647fb4773f0d9198"
-metafile = true
-
-[[files]]
 file = "mods/configanytime.pw.toml"
 hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
 metafile = true
 
 [[files]]
-file = "mods/filedirector.pw.toml"
-hash = "674a47dfdf5b2f7b85c5efade17c8a18a6d7ccddb1aaa5f2cfbc70b966a6cc73"
+file = "mods/entity-culling.pw.toml"
+hash = "91c2d6674cd58f291e9bef17ee19fa0c4f44d4a3f19db8ff80b03f1b797b541f"
+metafile = true
+
+[[files]]
+file = "mods/flare.pw.toml"
+hash = "24fa50f6958381fcf97d902da91dcfec37b9cca60b6eb08f796f68e442227466"
+metafile = true
+
+[[files]]
+file = "mods/lolasm.pw.toml"
+hash = "d2c61d32b03991d8aa5538fa36e99e84b4932bfacd25df098e74af26af949e41"
+metafile = true
+
+[[files]]
+file = "mods/mixin-0-7-0-8-compatibility.pw.toml"
+hash = "f39c64e5bbdc2ec6a12936cbdd4a2821d891d591402de376acb21fcde158a548"
 metafile = true
 
 [[files]]
@@ -137,6 +123,11 @@ hash = "8c322f78de2ebe71b903b2f9e022bc94d4ddb50cdc1baf6161aef8eee2595324"
 metafile = true
 
 [[files]]
+file = "mods/nothirium.pw.toml"
+hash = "388bcf63c6501be62387d89f6b702b4a1916e3517437c82f0e16e655da6bca00"
+metafile = true
+
+[[files]]
 file = "mods/particle-culling.pw.toml"
 hash = "07d424d548178e08ebfa96074d8d3483fa4214050bcdecc4f7ab43d5570acb67"
 metafile = true
@@ -152,6 +143,16 @@ hash = "9962eda190032c87bd117baba7f4993338a1b3173a4d1211675a332011d5e4b0"
 metafile = true
 
 [[files]]
+file = "mods/renderlib.pw.toml"
+hash = "5b65213d7179d07ab308e4a108b53d5d3fc4caef98efd4fef64ddaaeaf489400"
+metafile = true
+
+[[files]]
+file = "mods/sledgehammer.pw.toml"
+hash = "2052612b61bd90ec0c74715599b0e88a802bc713b4aaa7186b66df2c9df391d5"
+metafile = true
+
+[[files]]
 file = "mods/universal-tweaks.pw.toml"
 hash = "4f2be4a9451756453a8c654b5cf127dc25427ede6b5dba469c138ac6023f8cd5"
 metafile = true
@@ -159,4 +160,9 @@ metafile = true
 [[files]]
 file = "mods/vintagefix.pw.toml"
 hash = "d4b265db96d54164964d11bddc7a1abc78777e56850b1d94683febb7d8009cf4"
+metafile = true
+
+[[files]]
+file = "mods/xp-orb-clump.pw.toml"
+hash = "6223630bb345e49f10e93c179c3cbd39b6a76d7e87a37158a69db5983f93b6e5"
 metafile = true
