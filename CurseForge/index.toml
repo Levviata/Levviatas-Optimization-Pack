@@ -41,18 +41,6 @@ file = "config/loliasm.cfg"
 hash = "dd24696f156b1dba36805546c8f528d6d9bcd028a15c9bf2d126d0e1acd11102"
 
 [[files]]
-file = "config/loliasm/methods-stable_39.csv"
-hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
-
-[[files]]
-file = "config/mod-director/icon.png"
-hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
-
-[[files]]
-file = "config/mod-director/modpack.json"
-hash = "695a329832646b5209dedd1e290600b369f11f38b78dbbec9533209c6d31b6cc"
-
-[[files]]
 file = "config/nothirium.cfg"
 hash = "bd8a742bf6d3b80365b450e7674cc0edd6be5e140ca6ed896488d8f6ae3278ba"
 
@@ -93,18 +81,8 @@ hash = "91c2d6674cd58f291e9bef17ee19fa0c4f44d4a3f19db8ff80b03f1b797b541f"
 metafile = true
 
 [[files]]
-file = "mods/flare.pw.toml"
-hash = "24fa50f6958381fcf97d902da91dcfec37b9cca60b6eb08f796f68e442227466"
-metafile = true
-
-[[files]]
 file = "mods/lolasm.pw.toml"
 hash = "d2c61d32b03991d8aa5538fa36e99e84b4932bfacd25df098e74af26af949e41"
-metafile = true
-
-[[files]]
-file = "mods/mixin-0-7-0-8-compatibility.pw.toml"
-hash = "f39c64e5bbdc2ec6a12936cbdd4a2821d891d591402de376acb21fcde158a548"
 metafile = true
 
 [[files]]
@@ -130,11 +108,6 @@ metafile = true
 [[files]]
 file = "mods/particle-culling.pw.toml"
 hash = "07d424d548178e08ebfa96074d8d3483fa4214050bcdecc4f7ab43d5570acb67"
-metafile = true
-
-[[files]]
-file = "mods/raw-mouse-input-blessed-edition.pw.toml"
-hash = "ac556077826708da1060cf2d0ec97ea6edf41af1f44f0f9fc8ee3711ebafd736"
 metafile = true
 
 [[files]]
