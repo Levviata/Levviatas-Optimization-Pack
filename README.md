@@ -55,13 +55,13 @@ the pack is named "Optimum" internally)
 
 ## External Mods / CurseForge Mods
 This modpack uses [File Director](https://modrinth.com/mod/filedirector) to download these mods from CurseForge:
-- [Mixin 0.7-0.8 Compatibility](https://www.curseforge.com/minecraft/mc-mods/mixin-0-7-0-8-compatibility) (optional, is helpful only on specific occasions)
-- [Censored ASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)
 - [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entity-culling)
 - [Fast Furnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace)
 - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium)
 - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib)
 - [Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)
+These mods were redistributed/bundled with the modpack for convenience (see "Copyright" section for more information):
+- [Censored ASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)
 
 ### NOTE: When you first download these mods your game WILL crash, simply reboot your game and no more errors/crashes should appear ([issue on GitHub](https://github.com/TerraFirmaCraft-The-Final-Frontier/FileDirector/issues/31) + [reason why this unavoidably happens](https://github.com/Levviata/Levviatas-Optimization-Pack-public/blob/72e72c417410e9ee3f867704bf0cac6d576c6bf1/Misc/filedirectorissue.png)).
 
@@ -106,7 +106,13 @@ Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack (unlisted vis
 
 CurseForge: https://legacy.curseforge.com/minecraft/modpacks/levviatas-optimization-pack (not listed)
 
-## Credits
+## Credits / Copyright Notice
+
+[CensoredASM](https://github.com/LoliKingdom/LoliASM) (by [Rongmario](https://github.com/Rongmario)),
+which is licensed with [LGPL](https://github.com/LoliKingdom/LoliASM/blob/master/LICENSE),
+comes bundled with the pack for convenience 
+(click blue texts/links for more info)
+
 Credits to every mod's author included (or were included) in the pack for their amazing optimizations.
 
 ## License
