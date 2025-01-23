@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE.md"
+hash = "01e22c13e1eba21d9fa0790ae648a2212a51924c30a1d1e667ab515e71a1e64a"
+
+[[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
 hash = "5193cde4f0e587746eaf7e4205d5f0a276999e6f6dd1592aabdd333678766150"
 
@@ -41,36 +45,20 @@ file = "config/loliasm.cfg"
 hash = "dd24696f156b1dba36805546c8f528d6d9bcd028a15c9bf2d126d0e1acd11102"
 
 [[files]]
-file = "config/loliasm/methods-stable_39.csv"
-hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
-
-[[files]]
-file = "config/mod-director/censored-asm.curse.json"
-hash = "37f0d196f221e55a22905f28059e36787409c8ad5d3106eed41f868a34b596ad"
-
-[[files]]
 file = "config/mod-director/entity-culling.curse.json"
 hash = "5c3c88596606167e8937f76cbdf789c52299494a4c556e8a419f5bd1fdadbdf4"
 
 [[files]]
-file = "config/mod-director/fixeroo.curse.json"
-hash = "ea3bca047c16a98062e910c08a2183b9af2c6d7fddecc20f5f5d4273ae4a80d3"
-
-[[files]]
-file = "config/mod-director/icon.png"
-hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
-
-[[files]]
-file = "config/mod-director/libs.bundle.json"
-hash = "9af6afc94d947bad6645818c761134d4f2442c43623eba891b6fa18a5ab4fd54"
-
-[[files]]
 file = "config/mod-director/modpack.json"
-hash = "695a329832646b5209dedd1e290600b369f11f38b78dbbec9533209c6d31b6cc"
+hash = "698b48dd6995a7e4d00a60a4e0483164124c3b78b8b65470f76c52ccc85aaca8"
 
 [[files]]
 file = "config/mod-director/nothirium.curse.json"
-hash = "4f897af3f1a2c08febeb841231a121d96a51088a717dc54558109a618066f35c"
+hash = "5eae6098ed79d8bb6987dbba7bde1db29d302d0d985a9112a2b47465e893d4f9"
+
+[[files]]
+file = "config/mod-director/renderlib.curse.json"
+hash = "ff290f4919b8560c252ab99ce89563aa9c35729995376b6c01ecb8d9b1460368"
 
 [[files]]
 file = "config/nothirium.cfg"
@@ -97,6 +85,14 @@ file = "config/vintagefix.properties"
 hash = "300ef66cbf77dc0d9d7f8eec753756cf0cfde8390717998c8d103b56e3330ccb"
 
 [[files]]
+file = "icon.png"
+hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
+
+[[files]]
+file = "mods/Fixeroo-2.3.3-hotfix.1.jar"
+hash = "e0ef704981719f09bfb18d59508476217a2dc5f5d8e34aed13996dad288fc6ce"
+
+[[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
 hash = "b36a9157adbdbb91cb714fabacaf55882eb6eea10de7ca7c793c58132e478201"
 metafile = true
@@ -105,6 +101,10 @@ metafile = true
 file = "mods/better-biome-blend.pw.toml"
 hash = "209ecd4b8c1aa36632593550a95d3557815b221e57e4e4a6dd9789da33f950c3"
 metafile = true
+
+[[files]]
+file = "mods/censoredasm5.20.jar"
+hash = "cf43c10333af76cc1eebd81d8d19fba212577e87cb7a9fc0461cb4011d100aba"
 
 [[files]]
 file = "mods/configanytime.pw.toml"
