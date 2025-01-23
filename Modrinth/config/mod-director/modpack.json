@@ -1,7 +1,7 @@
 {
     "packName": "Levviata's Optimized Pack",
     "icon": {
-        "path": "config/mod-director/icon.png",
+        "path": "icon.png",
         "width": 128,
         "height": 128
    }
