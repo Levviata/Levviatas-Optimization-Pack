@@ -102,9 +102,9 @@ also check how Entity Cull (current) differs from the other Entity Cull (by tr7z
 
 
 ## Links
-Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack (unlisted visibility)
+Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack
 
-CurseForge: https://legacy.curseforge.com/minecraft/modpacks/levviatas-optimization-pack (not listed)
+CurseForge: https://legacy.curseforge.com/minecraft/modpacks/levviatas-optimization-pack
 
 ## Credits / Copyright Notice
 
