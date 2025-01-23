@@ -29,10 +29,6 @@ file = "config/entityculling.cfg"
 hash = "8a1dc449204426365e60b56c217b6b279df87156c054500037aca90500fe1638"
 
 [[files]]
-file = "config/fastfurnace.cfg"
-hash = "7c8db5e40867d4adc12f920ed5f22a7194d8cb68da287108d92af74604592c9f"
-
-[[files]]
 file = "config/forge.cfg"
 hash = "0faa0fe45f52ce72ca55655dc7c476e823fc5ad50cb48373e086f3d513a9d592"
 
