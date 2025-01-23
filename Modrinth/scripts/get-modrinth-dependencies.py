@@ -8,6 +8,7 @@ mods_directory = "../Modrinth/mods"
 # List to hold dependencies
 dependencies = []
 
+# We can actually skip dependencies to package so that's nice
 skip_list = ["flare.pw.toml",
              "raw-mouse-input-blessed-edition.pw.toml"
              ]
