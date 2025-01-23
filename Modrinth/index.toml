@@ -46,7 +46,7 @@ hash = "5c3c88596606167e8937f76cbdf789c52299494a4c556e8a419f5bd1fdadbdf4"
 
 [[files]]
 file = "config/mod-director/modpack.json"
-hash = "698b48dd6995a7e4d00a60a4e0483164124c3b78b8b65470f76c52ccc85aaca8"
+hash = "e478e40f7650ca6b5e187562df97734d528174ccb30e85444264192c7692a556"
 
 [[files]]
 file = "config/mod-director/nothirium.curse.json"
@@ -54,7 +54,7 @@ hash = "5eae6098ed79d8bb6987dbba7bde1db29d302d0d985a9112a2b47465e893d4f9"
 
 [[files]]
 file = "config/mod-director/renderlib.curse.json"
-hash = "ff290f4919b8560c252ab99ce89563aa9c35729995376b6c01ecb8d9b1460368"
+hash = "fa5f56ae2405a6224ed6e9ef02a73b4108a6a218c76e0bad2fad2e99c640cf59"
 
 [[files]]
 file = "config/nothirium.cfg"
@@ -81,7 +81,7 @@ file = "config/vintagefix.properties"
 hash = "300ef66cbf77dc0d9d7f8eec753756cf0cfde8390717998c8d103b56e3330ccb"
 
 [[files]]
-file = "icon.png"
+file = "modpack-icon.png"
 hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
 
 [[files]]
