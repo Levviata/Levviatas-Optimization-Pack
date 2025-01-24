@@ -16,8 +16,6 @@ if you have any problem.)
 the pack is named "Optimum" internally)
 
 ### Links
-
-
 Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack
 
 CurseForge: https://www.curseforge.com/minecraft/modpacks/levviatas-optimization-pack
