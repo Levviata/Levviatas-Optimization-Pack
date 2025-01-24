@@ -9,9 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Install Packwiz
+        run: |
+          curl -s https://packwiz.infra.link/install.sh | bash
+
       - name: Build with packwiz
-        id: build
-        run: cd Modrinth & packwiz modrinth export
+        run: |
+          cd Modrinth
+          packwiz modrinth export
 
       - name: Find correct JAR
         id: findjar
