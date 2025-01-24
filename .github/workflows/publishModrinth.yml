@@ -6,18 +6,22 @@ on:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v3
 
       - name: Install Packwiz
-        shell: bash
-        run: curl -s https://packwiz.infra.link/install.sh
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          sudo chmod +x /usr/bin/packwiz
 
-      - name: Build with packwiz
-        shell: bash
+      - name: Build With Packwiz
         run: |
           cd Modrinth
-          packwiz modrinth export
+          sudo packwiz modrinth export
 
       - name: Find correct JAR
         id: findjar
