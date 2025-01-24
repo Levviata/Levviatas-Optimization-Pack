@@ -113,11 +113,6 @@ hash = "a18f1ae78146b519e53439e7bbaf8b29c745e5a1bcd2d2f4214ae387a1f9448b"
 metafile = true
 
 [[files]]
-file = "mods/flare.pw.toml"
-hash = "abae7e20771785f6c0e2e66a26e3004db3c51c0cdc486fb4d12dfc868697cc8a"
-metafile = true
-
-[[files]]
 file = "mods/mixinbooter.pw.toml"
 hash = "76db55796064afd2640a7d1f17751f30f565785bfc65d95df81a3ee730d94469"
 metafile = true
@@ -135,11 +130,6 @@ metafile = true
 [[files]]
 file = "mods/particle-culling.pw.toml"
 hash = "6f9699ef531cb96bc7deaf77196b8cbe63a32360cdfebea8ffb9a2f6dd6b87c4"
-metafile = true
-
-[[files]]
-file = "mods/raw-mouse-input-blessed-edition.pw.toml"
-hash = "dad7a65660617a637984ba417b432aed4fd607f1334b111308bc933340a605b9"
 metafile = true
 
 [[files]]

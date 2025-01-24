@@ -8,22 +8,10 @@ mods_directory = "../Modrinth/mods"
 # List to hold dependencies
 dependencies = []
 
-# We can actually skip dependencies to package so that's nice
-skip_list = ["flare.pw.toml",
-             "raw-mouse-input-blessed-edition.pw.toml"
-             ]
-
 # Loop through all TOML files in the 'mods' folder
 for mod in os.listdir(mods_directory):
     if mod.endswith(".pw.toml"):  # Look for files with the .pw.toml extension
         mod_file_path = os.path.join(mods_directory, mod)
-
-        if mod in skip_list:
-            print(f"Skipping {mod}!")
-            continue  # Skip this file and move to the next iteration
-
-        if not skip_list:
-            print("Skipped all mods!")
 
         # Load the TOML file
         with open(mod_file_path, 'r') as toml_file:
