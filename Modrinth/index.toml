@@ -118,11 +118,6 @@ hash = "76db55796064afd2640a7d1f17751f30f565785bfc65d95df81a3ee730d94469"
 metafile = true
 
 [[files]]
-file = "mods/mixinbootstrap.pw.toml"
-hash = "20cbf783aac49bf1f1cf7534a2e95e5b4e9c8e6d9cc143da34beae0dffb183ff"
-metafile = true
-
-[[files]]
 file = "mods/naughthirium.pw.toml"
 hash = "05ee2b45003f76c6fa318fa6158038f89777058f223131e5b31daaae623e1db0"
 metafile = true

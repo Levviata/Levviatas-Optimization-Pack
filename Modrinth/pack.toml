@@ -1,12 +1,12 @@
 name = "Optimum"
 author = "Levviata"
-version = "0.1.1"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "93726cf2a70dfed2a2e99ac2e3134f5753ac9d2ff2519207c3fa01fd88c763c9"
+hash = "585b6c1d4fbc5ab3c3407540dcbfb095b51b38e088a11f4c56c9be3fdc3ac5dd"
 
 [versions]
 forge = "14.23.5.2860"
