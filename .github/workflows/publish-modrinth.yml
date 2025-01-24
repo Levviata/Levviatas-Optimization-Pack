@@ -1,0 +1,45 @@
+name: "Build and Publish To Modrinth"
+on:
+  release:
+    types: [published]
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build with packwiz
+        id: build,
+        run: cd Modrinth & packwiz modrinth export
+
+      - name: Find correct JAR
+        id: findjar
+        run: |
+          output="$(find build/libs/ ! -name "*-dev.jar" ! -name "*-sources.jar" -type f -printf "%f\n")"
+          echo "jarname=$output" >> $GITHUB_OUTPUT
+
+      - name: Upload to the GitHub release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: build/libs/${{ steps.findjar.outputs.jarname }}
+          asset_name: ${{ steps.findjar.outputs.jarname }}
+          asset_content_type: application/java-archive
+
+      - name: Upload to Modrinth
+        uses: RubixDev/modrinth-upload@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file_path: build/libs/${{ steps.findjar.outputs.jarname }}
+          name: My super cool mod ${{ github.event.release.tag_name }}
+          version: ${{ github.event.release.tag_name }}
+          changelog: ${{ github.event.release.body }}
+          relations: P7dR8mSH:required
+          game_versions: 1.19,1.19.1,1.19.2
+          release_type: beta
+          loaders: fabric,forge
+          featured: true
+          project_id: abcDEFGH
+          staging: true
