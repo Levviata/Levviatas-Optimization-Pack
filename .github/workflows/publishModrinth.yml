@@ -13,7 +13,7 @@ jobs:
       - name: Build With Packwiz
         run: |
           cd Modrinth
-          sudo ../bin/packwiz.exe modrinth export
+          sudo bash ../bin/packwiz.exe modrinth export
 
       - name: Find correct JAR
         id: findjar
