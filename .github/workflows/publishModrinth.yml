@@ -1,4 +1,4 @@
-name: "Build and Publish To Modrinth"
+name: Build and Publish To Modrinth
 on:
   release:
     types: [published]
