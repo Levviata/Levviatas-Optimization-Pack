@@ -37,8 +37,7 @@ jobs:
       - name: Export Modrinth files
         run: |
           cd Modrinth
-          ~/.cache/packwiz/packwiz modrinth export -o Optimum-Modrinth.mrpack
-      # TODO add version number
+          ~/.cache/packwiz/packwiz modrinth export -o Optimum-Modrinth-${{ env.version }}-beta.mrpack
 
       # Upload to modrinth
       - name: Upload Modrinth pack (with Staging API)
@@ -46,7 +45,7 @@ jobs:
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           file_path: Modrinth/Optimum-Modrinth.mrpack
-          name: Optimum v${{ env.version }}
+          name: Optimum v${{ env.version }}-beta
           version: ${{ env.version }}
           changelog: "**Full Changelog**: https://github.com/Levviata/Levviatas-Optimization-Pack/release/tag/v${{ env.version }}-modrinth"
           game_versions: 1.12.2
