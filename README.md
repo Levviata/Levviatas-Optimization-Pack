@@ -26,8 +26,9 @@ Choose CurseForge for your preferred website to download as it is the easiest to
 Uploaded versions on CurseForge and Modrinth have no differences. You don't have to care about it.
 
 <details>
-  <summary>But if you do care, here's an explanation</summary>
-
+  <summary><h3>But if you do care, here's an explanation</h3></summary>
+  
+----
 The only difference that "matters"
 is that the modpack version on Modrinth uses [File Director](https://modrinth.com/mod/filedirector) to download these mods:
 
@@ -42,8 +43,6 @@ This is because of:
 - Mods might not be on CurseForge or Modrinth or vice versa.
 - Distribution permissions are different from CurseForge to Modrinth and vice versa.
 - Some mods have restrictive licenses which do not allow distribution.
-
-
 </details>
 
 ## Performance Comparison
@@ -51,12 +50,14 @@ TODO: add images for comparison (against vanilla, etc.)
 also check how Entity Cull (current) differs from the other Entity Cull (by tr7zw)
 
 ## Known Issues / Known Incompatibilities
+Please see [Known Issues](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/KNOWN_ISSUES.md) here and [Incompabilities](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/INCOMPATIBILITIES.md) here.
 
 ## Other Mods / Useful Resources
 <sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
-
+Please see [Other Mods and Useful Resources](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/RESOURCES.md) here.
 
 ## Credits / Copyright Notice
+Please see [Credits and Copyright](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/49fe7db695996d761474fa3737db3c20681939d5/Documentation/CREDITS.md)
 
 ## License
 TLDR: Distribution and modification is allowed, but you can't use "Levviata's Optimization Pack" as your own trademark.
