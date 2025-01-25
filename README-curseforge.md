@@ -55,10 +55,6 @@ the pack is named "Optimum" internally)
 
 ### Notes:
 
-**Universal Tweaks:**
-- Changes the way auto jumping works. If auto jumping is enabled, it makes you automatically step up a whole block (like if you were riding a horse) instead of jumping near a block. To disable -> B:"Auto Jump Replacement"=false (Tweaks.cfg)
-- There is also a bunch of other similar changes, edit the config as you wish (this will be removed from the modpack soon)
-
 ## Performance Comparison
 TODO: add images for comparison (against vanilla, etc.)
 also check how Entity Cull (current) differs from the other Entity Cull (by tr7zw)
