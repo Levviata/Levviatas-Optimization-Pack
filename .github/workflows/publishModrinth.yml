@@ -1,7 +1,5 @@
 name: Build and Publish To Modrinth
 on:
-  release:
-    types: [published]
   workflow_dispatch:
 jobs:
   build-and-publish:
@@ -10,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Build With Packwiz
+      - name: Build with Packwiz
         run: |
           cd Modrinth
           sudo bash ../bin/packwiz.exe modrinth export
