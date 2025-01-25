@@ -34,6 +34,6 @@ jobs:
             -H "Authorization: Bearer $MODRINTH_TOKEN" \
             -H "Content-Type: application/json" \
             -d '{
-              "description": '"test ${SUMMARY}"',
-              "body": '"test ${DESCRIPTION}"'
+              "description": '"${SUMMARY}"',
+              "body": '"${DESCRIPTION}"'
             }'
