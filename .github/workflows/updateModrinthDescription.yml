@@ -16,8 +16,8 @@ jobs:
       - name: Read Markdown Files
         id: read_files
         run: |
-          SUMMARY=$(cat SUMMARY.md)
-          DESCRIPTION=$(cat README-modrinth.md)
+          SUMMARY=$(jq -Rs '.' < SUMMARY.md)
+          DESCRIPTION=$(jq -Rs '.' < README-modrinth.md)
           echo "summary=$SUMMARY" >> $GITHUB_ENV
           echo "description=$DESCRIPTION" >> $GITHUB_ENV
 
@@ -34,6 +34,6 @@ jobs:
             -H "Authorization: Bearer $MODRINTH_TOKEN" \
             -H "Content-Type: application/json" \
             -d '{
-              "description": "'"$SUMMARY"'",
-              "body": "'"$DESCRIPTION"'"
+              "description": '"${SUMMARY}"',
+              "body": '"${DESCRIPTION}"'
             }'
