@@ -1,4 +1,4 @@
-name: (STAGING/TEST) Build And Publish Modrinth
+name: Build And Publish Modrinth
 on:
   workflow_dispatch:
 
@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Restore Packwiz cache
+      # Restore Packwiz cache
       - name: Restore Packwiz Cache
         uses: actions/cache@v3
         with:
@@ -20,28 +20,37 @@ jobs:
           restore-keys: |
             packwiz-${{ runner.os }}-
 
-      # Step 4: Ensure Modrinth folder exists
+      # Get version number
+      - name: Extract version using grep
+        id: fetch_version
+        run: |
+          cd Modrinth
+          VERSION=$(grep '^version' pack.toml | sed 's/version = "\(.*\)"/\1/')
+          echo "Version is $VERSION"
+          echo "version=$VERSION" >> $GITHUB_ENV
+
+      # Make sure the folder exists, this is often redundant.
       - name: Create Modrinth folder
         run: mkdir -p Modrinth
 
-      # Step 5: Export Modrinth files
+      # Export modrinth pack
       - name: Export Modrinth files
         run: |
           cd Modrinth
           ~/.cache/packwiz/packwiz modrinth export -o Optimum-Modrinth.mrpack
       # TODO add version number
 
+      # Upload to modrinth
       - name: Upload Modrinth pack (with Staging API)
         uses: RubixDev/modrinth-upload@v1
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           file_path: Modrinth/Optimum-Modrinth.mrpack
-          name: My super cool mod v0.6.9
-          version: v0.6.9
-          changelog: test
+          name: Optimum v${{ env.version }}
+          version: ${{ env.version }}
+          changelog: "**Full Changelog**: https://github.com/Levviata/Levviatas-Optimization-Pack/release/tag/v${{ env.version }}-modrinth"
           game_versions: 1.12.2
           release_type: beta
           loaders: forge
           featured: true
-          staging: false
           project_id: QsAXBvnI
