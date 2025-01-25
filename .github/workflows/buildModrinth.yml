@@ -23,7 +23,9 @@ jobs:
       - name: Create Modrinth folder
         run: mkdir -p Modrinth
 
-      # Step 5: Run Packwiz modrinth export
+      # Step 5: Export Modrinth files
       - name: Export Modrinth files
         run: |
-          ~/.cache/packwiz/packwiz modrinth export -o Modrinth
+          cd Modrinth
+          ~/.cache/packwiz/packwiz modrinth export -o Optimum-Modrinth.mrpack
+        # TODO add version number 
