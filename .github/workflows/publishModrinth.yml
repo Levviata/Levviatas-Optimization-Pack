@@ -1,4 +1,4 @@
-name: Build and Publish To Modrinth
+name: Publish To Modrinth
 on:
   workflow_dispatch:
 jobs:
