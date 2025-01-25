@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CREDITS.txt"
+hash = "d4ddcf0e872f17bbc9477433ee0ac5e18294a60605f16d8029e8cc619e963820"
+
+[[files]]
 file = "LICENSE.txt"
 hash = "01e22c13e1eba21d9fa0790ae648a2212a51924c30a1d1e667ab515e71a1e64a"
 
@@ -43,8 +47,8 @@ hash = "209ecd4b8c1aa36632593550a95d3557815b221e57e4e4a6dd9789da33f950c3"
 metafile = true
 
 [[files]]
-file = "mods/censoredasm5.20.jar"
-hash = "cf43c10333af76cc1eebd81d8d19fba212577e87cb7a9fc0461cb4011d100aba"
+file = "mods/censoredasm5.21.jar"
+hash = "e57d36c7c65aaa7a89cab7b8a227c3241a14c3e86af059558e03e1643bffefa3"
 
 [[files]]
 file = "mods/configanytime.pw.toml"
@@ -58,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/mixinbooter.pw.toml"
-hash = "76db55796064afd2640a7d1f17751f30f565785bfc65d95df81a3ee730d94469"
+hash = "cbafb9696cb73b22a02de09aa8cbf66b7975e87659484b479adcedaebd78a7e3"
 metafile = true
 
 [[files]]
