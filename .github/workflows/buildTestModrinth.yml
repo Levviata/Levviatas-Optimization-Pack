@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
 env:
   MODRINTH_PROJECT_ID: QsAXBvnI
+  FILE_NAME: Optimum-Modrinth.mrpack
 
 jobs:
   build-modrinth:
@@ -31,14 +32,14 @@ jobs:
       - name: Export Modrinth files
         run: |
           cd Modrinth
-          ~/.cache/packwiz/packwiz modrinth export -o Optimum-Modrinth.mrpack
+          ~/.cache/packwiz/packwiz modrinth export -o $FILE_NAME
       # TODO add version number
 
       - name: Upload Modrinth pack (with Staging API)
         uses: RubixDev/modrinth-upload@v1
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          file_path: /Modrinth
+          file_path: /Modrinth/$FILE_NAME
           name: My super cool mod v0.6.9
           version: v0.6.9
           changelog: test
