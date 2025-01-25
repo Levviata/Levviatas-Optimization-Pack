@@ -33,7 +33,7 @@ jobs:
       - name: Upload Modrinth pack (with Staging API)
         uses: RubixDev/modrinth-upload@v1
         with:
-          token: ${{ secrets.Modrinth.MODRINTH_TOKEN }}
+          token: ${{ secrets.MODRINTH_TOKEN }}
           file_path: /Modrinth
           name: My super cool mod v0.6.9
           version: v0.6.9
@@ -43,4 +43,4 @@ jobs:
           loaders: forge
           featured: true
           staging: true
-          project_id: ${{ env.Modrinth.MODRINTH_PROJECT_ID }}
+          project_id: ${{ env.MODRINTH_PROJECT_ID }}
