@@ -1,3 +1,5 @@
+# Credits and Copyright
+
 [CensoredASM](https://github.com/LoliKingdom/LoliASM) (by [Rongmario](https://github.com/Rongmario)),
 which is licensed with [LGPL](https://github.com/LoliKingdom/LoliASM/blob/master/LICENSE),
 comes bundled with the Modrinth modpack for convenience
