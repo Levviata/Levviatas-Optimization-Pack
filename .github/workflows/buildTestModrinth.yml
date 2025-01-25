@@ -2,8 +2,8 @@ name: (STAGING/TEST) Build And Publish Modrinth
 on:
   workflow_dispatch:
 env:
-  MODRINTH_PROJECT_ID: QsAXBvnI
-  FILE_NAME: Optimum-Modrinth.mrpack # don't know how to make this key work, so I just do it manually later
+  MODRINTH_PROJECT_ID: QsAXBvnI # don't know how to make this key work, so I just do it manually later
+  FILE_NAME: Optimum-Modrinth.mrpack # same as above
 
 jobs:
   build-modrinth:
@@ -48,4 +48,4 @@ jobs:
           loaders: forge
           featured: true
           staging: true
-          project_id: $MODRINTH_PROJECT_ID
+          project_id: QsAXBvnI
