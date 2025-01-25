@@ -39,7 +39,7 @@ jobs:
         uses: RubixDev/modrinth-upload@v1
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          file_path: /Modrinth/Optimum-Modrinth.mrpack
+          file_path: Modrinth/Optimum-Modrinth.mrpack
           name: My super cool mod v0.6.9
           version: v0.6.9
           changelog: test
