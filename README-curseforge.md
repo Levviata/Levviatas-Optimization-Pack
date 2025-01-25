@@ -116,8 +116,6 @@ Please check the respective mod's issue tracker for up-to-date information and/o
     - [Custom block layers](https://github.com/Meldexun/Nothirium/issues/36)
     - [Texture animation errors](https://github.com/Meldexun/Nothirium/issues/40)
   
-  
-
 - **[Vintagium](https://github.com/Asek3/sodium-1.12):** ([see the complete issue list, these might not be incompatibilities, neither have they been confirmed nor dismissed, see at your own discretion](https://github.com/Asek3/sodium-1.12/issues))
   - [daizu-007's Vintagium Compatibility List](https://github.com/daizu-007/Vintagium-Compatibility-List)
   - [Little Tiles](https://github.com/Asek3/sodium-1.12/issues/8)
