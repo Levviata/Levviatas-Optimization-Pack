@@ -35,6 +35,7 @@ is that the modpack version on Modrinth uses [File Director](https://modrinth.co
 - [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entity-culling)
 - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium)
 - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib)
+- [Multithreaded Noise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
 
 There is currently no other way to bundle those mods with the [Modrinth] modpack.
 
