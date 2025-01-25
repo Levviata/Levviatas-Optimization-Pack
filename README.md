@@ -11,7 +11,7 @@ but please try it
 and [open an issue in the tracker](https://github.com/Levviata/Levviatas-Optimization-Pack/issues)
 if you have any problem.)
 
-(the modpack name on the web (modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack" for visibility,
+(the modpack name on the web (Modrinth, CurseForge, and GitHub) is "Levviata's Optimization Pack" for visibility,
 the pack is named "Optimum" internally)
 
 ## Download
@@ -35,7 +35,7 @@ is that the modpack version on Modrinth uses [File Director](https://modrinth.co
 - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium)
 - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib)
 
-There is currently no other way to bundle those mods with the modpack.
+There is currently no other way to bundle those mods with the [Modrinth] modpack.
 
 This is because of:
 
