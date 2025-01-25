@@ -4,6 +4,7 @@ on:
 jobs:
   build-modrinth:
     runs-on: ubuntu-latest
+    environment: Modrinth
 
     steps:
       # Step 1: Checkout repository
