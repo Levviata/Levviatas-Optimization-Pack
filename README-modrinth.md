@@ -83,10 +83,12 @@ TODO: add images for comparison (against vanilla, etc.)
 also check how Entity Cull (current) differs from the other Entity Cull (by tr7zw)
 
 ## Known Issues / Known Incompatibilities
-
+Please see [Known Issues](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/KNOWN_ISSUES.md) and [Incompabilities](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/INCOMPATIBILITIES.md).
 
 ## Other Mods / Useful Resources
 <sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
+
+Please see [Other Mods and Useful Resources](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/RESOURCES.md).
 
 ## Links
 
@@ -97,18 +99,7 @@ Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack (you are here
 GitHub: https://github.com/Levviata/Levviatas-Optimization-Pack (source)
 
 ## Credits / Copyright Notice
-
-[CensoredASM](https://github.com/LoliKingdom/LoliASM) (by [Rongmario](https://github.com/Rongmario)),
-which is licensed with [LGPL](https://github.com/LoliKingdom/LoliASM/blob/master/LICENSE),
-comes bundled with the pack for convenience
-(click blue texts/links for more info)
-
-[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump) by [CaliforniaDemise](https://github.com/CaliforniaDemise),
-which is licensed with [MIT](https://github.com/CaliforniaDemise/Fixeroo/blob/main/LICENSE),
-comes bundled with the pack for convenience
-(click blue texts/links for more info)
-
-Credits to every mod's author included (or were included) in the pack for their amazing optimizations.
+Please see [Credits and Copyright](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/49fe7db695996d761474fa3737db3c20681939d5/Documentation/CREDITS.md).
 
 ## License
 TLDR: Distribution and modification is allowed, but you can't use "Levviata's Optimization Pack" as your own trademark
