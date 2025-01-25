@@ -1,4 +1,4 @@
-name: Build And Publish Modrinth
+name: Build And Publish to Modrinth
 on:
   workflow_dispatch:
 
@@ -40,7 +40,7 @@ jobs:
           ~/.cache/packwiz/packwiz modrinth export -o Optimum-Modrinth-${{ env.version }}-beta.mrpack
 
       # Upload to modrinth
-      - name: Upload Modrinth pack (with Staging API)
+      - name: Upload Modrinth pack
         uses: RubixDev/modrinth-upload@v1
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
