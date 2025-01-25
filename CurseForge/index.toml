@@ -23,6 +23,11 @@ hash = "4d2a7b1094737b39ed9cdfb29e83aedd0ac0addd72b41d5e6b129754e9eae316"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "2acbe0f770a8303ecea88bc3ceef4ea6f76cb69206f15229647fb4773f0d9198"
+metafile = true
+
+[[files]]
 file = "mods/configanytime.pw.toml"
 hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
 metafile = true
@@ -80,9 +85,4 @@ metafile = true
 [[files]]
 file = "mods/vintagefix.pw.toml"
 hash = "d4b265db96d54164964d11bddc7a1abc78777e56850b1d94683febb7d8009cf4"
-metafile = true
-
-[[files]]
-file = "mods/xp-orb-clump.pw.toml"
-hash = "6223630bb345e49f10e93c179c3cbd39b6a76d7e87a37158a69db5983f93b6e5"
 metafile = true

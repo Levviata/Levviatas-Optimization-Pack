@@ -33,10 +33,6 @@ file = "modpack-icon.png"
 hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
 
 [[files]]
-file = "mods/Fixeroo-2.3.3-hotfix.1.jar"
-hash = "e0ef704981719f09bfb18d59508476217a2dc5f5d8e34aed13996dad288fc6ce"
-
-[[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
 hash = "b36a9157adbdbb91cb714fabacaf55882eb6eea10de7ca7c793c58132e478201"
 metafile = true
@@ -49,6 +45,11 @@ metafile = true
 [[files]]
 file = "mods/censoredasm5.21.jar"
 hash = "e57d36c7c65aaa7a89cab7b8a227c3241a14c3e86af059558e03e1643bffefa3"
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "066c88954b7b1df6097f6046ebab836fa535dc376d6bb63cdf26b18a3eb97873"
+metafile = true
 
 [[files]]
 file = "mods/configanytime.pw.toml"
