@@ -62,7 +62,7 @@ Please see [Known Issues](https://github.com/Levviata/Levviatas-Optimization-Pac
 and [Incompatibilities](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/Documentation/INCOMPATIBILITIES.md).
 
 ## Other Mods / Useful Resources
-<sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
+_Other useful mods that aren't essential and the resources/lists used to make this modpack._
 
 Please see [Other Mods and Useful Resources](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/Documentation/RESOURCES.md).
 
