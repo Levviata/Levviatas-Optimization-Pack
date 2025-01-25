@@ -1,0 +1,38 @@
+name: Cache Packwiz Dependency
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # Adjust to 'windows-latest' if you need a Windows environment
+
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Restore cache
+      - name: Restore Packwiz Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            packwiz-${{ runner.os }}-
+
+      # Step 3: Install packwiz if not cached
+      - name: Install Packwiz
+        run: |
+          mkdir -p ~/.cache/packwiz
+          if [ ! -f ~/.cache/packwiz/packwiz ]; then
+            go install github.com/packwiz/packwiz@latest
+            mv ~/go/bin/packwiz ~/.cache/packwiz/packwiz
+          fi
+
+      # Step 4: Verify Packwiz
+      - name: Verify Packwiz
+        run: ~/.cache/packwiz/packwiz --version
