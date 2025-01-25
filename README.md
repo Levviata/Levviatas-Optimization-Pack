@@ -43,6 +43,7 @@ This is because of:
 - Mods might not be on CurseForge or Modrinth or vice versa.
 - Distribution permissions are different from CurseForge to Modrinth and vice versa.
 - Some mods have restrictive licenses which do not allow distribution.
+
 </details>
 
 ## Performance Comparison
@@ -54,6 +55,7 @@ Please see [Known Issues](https://github.com/Levviata/Levviatas-Optimization-Pac
 
 ## Other Mods / Useful Resources
 <sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
+
 Please see [Other Mods and Useful Resources](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/RESOURCES.md) here.
 
 ## Credits / Copyright Notice
