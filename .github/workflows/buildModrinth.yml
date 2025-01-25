@@ -1,0 +1,29 @@
+name: Build Modrinth
+on:
+  workflow_dispatch:
+jobs:
+  build-modrinth:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Restore Packwiz cache
+      - name: Restore Packwiz Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            packwiz-${{ runner.os }}-
+
+      # Step 4: Ensure Modrinth folder exists
+      - name: Create Modrinth folder
+        run: mkdir -p Modrinth
+
+      # Step 5: Run Packwiz modrinth export
+      - name: Export Modrinth files
+        run: |
+          ~/.cache/packwiz/packwiz modrinth export -o Modrinth
