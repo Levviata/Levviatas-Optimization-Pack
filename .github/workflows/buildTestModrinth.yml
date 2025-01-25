@@ -31,13 +31,6 @@ jobs:
           ~/.cache/packwiz/packwiz modrinth export -o Optimum-Modrinth.mrpack
       # TODO add version number
 
-      - name: Upload to CurseForge
-        env:
-          CURSEFORGE_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-        run: |
-          echo "Using CurseForge Token..."
-          echo "Token value is $CURSEFORGE_TOKEN"
-
       - name: Upload Modrinth pack (with Staging API)
         uses: RubixDev/modrinth-upload@v1
         with:
@@ -50,5 +43,5 @@ jobs:
           release_type: beta
           loaders: forge
           featured: true
-          staging: true
+          staging: false
           project_id: QsAXBvnI
