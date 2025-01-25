@@ -29,4 +29,4 @@ TLDR: Distribution and modification is allowed, but you can't use "Levviata's Op
 
 That is a short summary of what is most important, please read the full license below:
 
-License: https://github.com/Levviata/Levviatas-Optimization-Pack/blob/ac9718cc0c63fb7ebc53c753f284dac3bae2421c/LICENSE.md
+License: https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/LICENSE.txt

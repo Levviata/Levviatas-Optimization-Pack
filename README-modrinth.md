@@ -47,6 +47,7 @@ the pack is named "Optimum" internally)
     - Packs a lot of minor changes into one big mod. A LOT of bugfixes and tweaks
   - [VintageFix](https://modrinth.com/mod/vintagefix) (FoamFix replacer)
     - Blockstate/model optimizations. Improves memory usage and load times
+  - [Multithreaded Noise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
   - [Particle Culling](https://www.curseforge.com/minecraft/mc-mods/particle-culling) (less particle lag)
     - A particle culling render system. Hides particles that aren't visible on your screen
   - [MixinBooter](https://modrinth.com/mod/mixinbooter) (core library)
@@ -71,7 +72,7 @@ This modpack uses [File Director](https://modrinth.com/mod/filedirector) to down
 - [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entity-culling)
 - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium)
 - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib)
-- [MultiThreadNoise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
+- [Multithreaded Noise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
 
 These mods were redistributed/bundled with the modpack for convenience (see "Credits / Copyright Notice" section for more information):
 - [Censored ASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)
@@ -83,12 +84,16 @@ TODO: add images for comparison (against vanilla, etc.)
 also check how Entity Cull (current) differs from the other Entity Cull (by tr7zw)
 
 ## Known Issues / Known Incompatibilities
-Please see [Known Issues](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/KNOWN_ISSUES.md) and [Incompabilities](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/INCOMPATIBILITIES.md).
+Please see [Known Issues](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/Documentation/KNOWN_ISSUES.md)
+and [Incompatibilities](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/Documentation/INCOMPATIBILITIES.md).
 
 ## Other Mods / Useful Resources
 <sub>_Other useful mods that aren't essential and the resources/lists used to make this modpack._</sub>
 
-Please see [Other Mods and Useful Resources](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/e5130c73abf441c403c4ec885435f0c11fdef307/Documentation/RESOURCES.md).
+Please see [Other Mods and Useful Resources](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/Documentation/RESOURCES.md).
+
+## Credits / Copyright Notice
+Please see [Credits and Copyright](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/Documentation/CREDITS.md).
 
 ## Links
 
@@ -98,13 +103,10 @@ Modrinth: https://modrinth.com/modpack/levviatas-optimization-pack (you are here
 
 GitHub: https://github.com/Levviata/Levviatas-Optimization-Pack (source)
 
-## Credits / Copyright Notice
-Please see [Credits and Copyright](https://github.com/Levviata/Levviatas-Optimization-Pack/blob/49fe7db695996d761474fa3737db3c20681939d5/Documentation/CREDITS.md).
-
 ## License
 TLDR: Distribution and modification is allowed, but you can't use "Levviata's Optimization Pack" as your own trademark
 ("Optimum" is NOT trademarked as it is a common English word.)
 
 That is a short summary of what is most important, please read the full license below:
 
-License: https://github.com/Levviata/Levviatas-Optimization-Pack/blob/ac9718cc0c63fb7ebc53c753f284dac3bae2421c/LICENSE.md
+License: https://github.com/Levviata/Levviatas-Optimization-Pack/blob/main/LICENSE.txt
