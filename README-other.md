@@ -1,6 +1,6 @@
 _A Forge 1.12.2 only modpack with pure optimizations and nothing else._
 
-A Forge/~~Cleanroom~~ ([Cleanroom](discord.gg/f2K4aSpG4F) support is planned) modpack
+A Forge/~~Cleanroom~~ ([Cleanroom](https://discord.com/invite/f2K4aSpG4F) support is planned) modpack
 that uses the latest optimization mods for Minecraft 1.12.2 while adding no other gameplay,
 QoL, etc. features.
 

@@ -10,7 +10,7 @@ Reboot your game and you will be totally fine.
 ([issue on GitHub](https://github.com/TerraFirmaCraft-The-Final-Frontier/FileDirector/issues/31) + [reason why this unavoidably happens](https://github.com/Levviata/Levviatas-Optimization-Pack-public/blob/72e72c417410e9ee3f867704bf0cac6d576c6bf1/Misc/filedirectorissue.png)).
 
 To download Vintagium latest release,
-please join [Cleanroom's Discord server](https://discord.gg/f2K4aSpG4F)
+please join [Cleanroom's Discord server](https://discord.com/invite/f2K4aSpG4F)
 and check the [# 🌟 information channel](https://discord.com/channels/926486493562814515/1185366081133617293/1259432738843398265),
 you will see the latest release there.
 
@@ -119,7 +119,7 @@ but for our application, it's not enough and actually makes optimization lag beh
 [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and [Vintagium](https://github.com/Asek3/sodium-1.12) rework the rendering system heavily,
 making some mod's rendering to straight out not work.
 
-([Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) has been reported to have better mod support than [Vintagium](https://github.com/Asek3/sodium-1.12) in the [Cleanroom Discord]( https://discord.gg/f2K4aSpG4F) server,
+([Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) has been reported to have better mod support than [Vintagium](https://github.com/Asek3/sodium-1.12) in the [Cleanroom Discord](https://discord.com/invite/f2K4aSpG4F) server,
 but that is my personal insight.)
 
 Some of the current incompatibilities:

@@ -1,5 +1,5 @@
 # Levviata's Optimization Pack
-A Forge/~~Cleanroom~~ ([Cleanroom](discord.gg/f2K4aSpG4F) support is planned) modpack
+A Forge/~~Cleanroom~~ ([Cleanroom](https://discord.com/invite/f2K4aSpG4F) support is planned) modpack
 that uses the latest optimization mods for Minecraft 1.12.2 while adding no other gameplay,
 QoL, etc. features.
 
@@ -82,7 +82,7 @@ but for our application, it's not enough and actually makes optimization lag beh
 [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and [Vintagium](https://github.com/Asek3/sodium-1.12) rework the rendering system heavily,
 making some mod's rendering to straight out not work.
 
-([Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) has been reported to have better mod support than [Vintagium](https://github.com/Asek3/sodium-1.12) in the [Cleanroom Discord]( https://discord.gg/f2K4aSpG4F) server,
+([Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) has been reported to have better mod support than [Vintagium](https://github.com/Asek3/sodium-1.12) in the [Cleanroom Discord](https://discord.com/invite/f2K4aSpG4F) server,
 but that is my personal insight.)
 
 Some of the current incompatibilities:

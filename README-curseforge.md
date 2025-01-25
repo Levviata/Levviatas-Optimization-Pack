@@ -1,6 +1,6 @@
 # Levviata's Optimization Pack
 
-### NOTE: To download Vintagium latest release, please join [Cleanroom's Discord server](https://discord.gg/f2K4aSpG4F) and check the [# 🌟 information channel](https://discord.com/channels/926486493562814515/1185366081133617293/1259432738843398265), you will see the latest release there.
+### NOTE: To download Vintagium latest release, please join [Cleanroom's Discord server](https://discord.com/invite/f2K4aSpG4F) and check the [# 🌟 information channel](https://discord.com/channels/926486493562814515/1185366081133617293/1259432738843398265), you will see the latest release there.
 
 
 ### OPTIFINE IS NOT SUPPORTED 
@@ -95,7 +95,7 @@ but for our application, it's not enough and actually makes optimization lag beh
 [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and [Vintagium](https://github.com/Asek3/sodium-1.12) rework the rendering system heavily,
 making some mod's rendering to straight out not work.
 
-([Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) has been reported to have better mod support than [Vintagium](https://github.com/Asek3/sodium-1.12) in the [Cleanroom Discord]( https://discord.gg/f2K4aSpG4F) server,
+([Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) has been reported to have better mod support than [Vintagium](https://github.com/Asek3/sodium-1.12) in the [Cleanroom Discord](https://discord.com/invite/f2K4aSpG4F) server,
 but that is my personal insight.)
 
 Some of the current incompatibilities:
