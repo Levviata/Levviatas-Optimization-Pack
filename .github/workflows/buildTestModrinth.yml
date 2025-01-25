@@ -1,6 +1,9 @@
 name: (STAGING/TEST) Build And Publish Modrinth
 on:
   workflow_dispatch:
+env:
+  MODRINTH_PROJECT_ID: QsAXBvnI
+
 jobs:
   build-modrinth:
     runs-on: ubuntu-latest
@@ -44,4 +47,4 @@ jobs:
           loaders: forge
           featured: true
           staging: true
-          project_id: ${{ env.MODRINTH_PROJECT_ID }}
+          project_id: $MODRINTH_PROJECT_ID
