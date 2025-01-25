@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CREDITS.txt"
-hash = "d4ddcf0e872f17bbc9477433ee0ac5e18294a60605f16d8029e8cc619e963820"
+hash = "a0478d9b65144faa32bf6633300c27f05f8ef5d3527bbbd25c7d17d43a9f6ad6"
 
 [[files]]
 file = "LICENSE.txt"
@@ -11,6 +11,14 @@ hash = "01e22c13e1eba21d9fa0790ae648a2212a51924c30a1d1e667ab515e71a1e64a"
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
 hash = "33a93deffb60bd80c8f26fd605b31908b0c420d0aa83c52133127d6f0beab9f2"
+
+[[files]]
+file = "config/mod-director/modpack.json"
+hash = "e478e40f7650ca6b5e187562df97734d528174ccb30e85444264192c7692a556"
+
+[[files]]
+file = "config/mod-director/multithreaded-noise.curse.json"
+hash = "da53a04eefcbca9d47c28352a0b84b778fb9c4ec7f453f581b0c61da4d15725b"
 
 [[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
@@ -35,6 +43,11 @@ metafile = true
 [[files]]
 file = "mods/entity-culling.pw.toml"
 hash = "91c2d6674cd58f291e9bef17ee19fa0c4f44d4a3f19db8ff80b03f1b797b541f"
+metafile = true
+
+[[files]]
+file = "mods/filedirector.pw.toml"
+hash = "674a47dfdf5b2f7b85c5efade17c8a18a6d7ccddb1aaa5f2cfbc70b966a6cc73"
 metafile = true
 
 [[files]]
@@ -75,6 +88,11 @@ metafile = true
 [[files]]
 file = "mods/sledgehammer.pw.toml"
 hash = "2052612b61bd90ec0c74715599b0e88a802bc713b4aaa7186b66df2c9df391d5"
+metafile = true
+
+[[files]]
+file = "mods/stellarcore.pw.toml"
+hash = "67625d0f1c5bdd48272128fd08770affe815452af4eb4e2fdd70d6eecc52d85c"
 metafile = true
 
 [[files]]

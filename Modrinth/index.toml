@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CREDITS.txt"
-hash = "d4ddcf0e872f17bbc9477433ee0ac5e18294a60605f16d8029e8cc619e963820"
+hash = "a0478d9b65144faa32bf6633300c27f05f8ef5d3527bbbd25c7d17d43a9f6ad6"
 
 [[files]]
 file = "LICENSE.txt"
@@ -21,6 +21,10 @@ file = "config/mod-director/modpack.json"
 hash = "e478e40f7650ca6b5e187562df97734d528174ccb30e85444264192c7692a556"
 
 [[files]]
+file = "config/mod-director/multithreaded-noise.curse.json"
+hash = "da53a04eefcbca9d47c28352a0b84b778fb9c4ec7f453f581b0c61da4d15725b"
+
+[[files]]
 file = "config/mod-director/nothirium.curse.json"
 hash = "5eae6098ed79d8bb6987dbba7bde1db29d302d0d985a9112a2b47465e893d4f9"
 
@@ -31,6 +35,10 @@ hash = "fa5f56ae2405a6224ed6e9ef02a73b4108a6a218c76e0bad2fad2e99c640cf59"
 [[files]]
 file = "modpack-icon.png"
 hash = "ba821097f1632cb0e825effc0c237f62cfcc71e27f4f5c7b1b56beab3b6bc630"
+
+[[files]]
+file = "mods/StellarCore-1.5.21.jar"
+hash = "1cb78648c69c701930e0f49499572d7c9f49d1b97af9ec11755ccd65ccdce97e"
 
 [[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
