@@ -1,4 +1,4 @@
-### Incompatibilities
+# Incompatibilities
 **Optifine:**
 
 No, thanks. Why not? See below.
