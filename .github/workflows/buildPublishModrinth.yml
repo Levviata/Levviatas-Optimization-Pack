@@ -57,7 +57,7 @@ jobs:
       # Update summary and description
       - name: Trigger Update Modrinth Description Workflow
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.OPTIMUM_WORKFLOW_TRIGGER }}
         run: |
           curl -X POST \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
