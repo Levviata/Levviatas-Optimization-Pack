@@ -1,3 +1,5 @@
+# Other Mods and Useful Resources
+
 ### **Performance**
 - **Performance mod lists used/referenced:**
     - [UtilMods](https://github.com/TheUsefulLists/UsefulMods/)
