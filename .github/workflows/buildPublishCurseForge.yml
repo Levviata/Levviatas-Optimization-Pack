@@ -45,7 +45,7 @@ jobs:
           api-token: "${{ secrets.CURSEFORGE_TOKEN }}"
           project-id: "1183185"
           modpack-path: "./CurseForge/Optimum-CurseForge-${{ env.version }}-beta.zip"
-          changelog: "**Full Changelog**: https://github.com/Levviata/Levviatas-Optimization-Pack/release/tag/v${{ env.version }}-curseforge"
+          changelog: "**Full Changelog**: https://github.com/Levviata/Levviatas-Optimization-Pack/release/tag/v${{ env.version }}"
           changelog-format: "markdown"
           game-version: "1.12.2"
           display-name: "Optimum v${{ env.version }}-beta"

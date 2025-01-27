@@ -47,7 +47,7 @@ jobs:
           file_path: Modrinth/Optimum-Modrinth-${{ env.version }}-beta.mrpack
           name: Optimum v${{ env.version }}-beta
           version: ${{ env.version }}
-          changelog: "**Full Changelog**: https://github.com/Levviata/Levviatas-Optimization-Pack/release/tag/v${{ env.version }}-modrinth"
+          changelog: "**Full Changelog**: https://github.com/Levviata/Levviatas-Optimization-Pack/release/tag/v${{ env.version }}"
           game_versions: 1.12.2
           release_type: beta
           loaders: forge
