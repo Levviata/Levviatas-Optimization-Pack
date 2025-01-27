@@ -26,7 +26,7 @@ the pack is named "Optimum" internally)
 - **Core:**
   - [Alfheim](https://modrinth.com/mod/alfheim-lighting-engine) (lighting engine)
     - A lighting engine. Completely reworks and optimizes the lighting engine
-  - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) + [Naughtirium](https://modrinth.com/mod/naughthirium) (render engine) -> _NOTE: Naughtirium adds compatibility with CensoredASM and Nothirium, it is needed._
+  - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) + [Naughthirium](https://modrinth.com/mod/naughthirium) (render engine) -> _NOTE: Naughthirium adds compatibility with CensoredASM and Nothirium, it is needed._
     - A chunk render engine. Reworks and (hopefully) optimizes chunk rendering
   - [CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm) (optimizes ram, fixes crashes, and optimizes code in general)
     - Minecraft bytecode hackery. Optimizes a lot of Minecraft's code with positive results
@@ -36,6 +36,8 @@ the pack is named "Optimum" internally)
     - Packs a lot of minor changes into one big mod. A LOT of bugfixes and tweaks
   - [VintageFix](https://modrinth.com/mod/vintagefix) (FoamFix replacer)
     - Blockstate/model optimizations. Improves memory usage and load times
+  - [StellarCore](https://www.curseforge.com/minecraft/mc-mods/stellarcore) (low invasiveness and high impact tweaker)
+    - A high impact but low invasiveness mod that fixes other mods (vanilla too), bug fixes, and improves performance.
   - [Particle Culling](https://www.curseforge.com/minecraft/mc-mods/particle-culling) (less particle lag)
     - A particle culling render system. Hides particles that aren't visible on your screen
   - [MixinBooter](https://modrinth.com/mod/mixinbooter) (core library)
@@ -43,8 +45,8 @@ the pack is named "Optimum" internally)
 - **Minor Fixes:**
   - [Better Biome Blend](https://www.curseforge.com/minecraft/mc-mods/better-biome-blend) (biome color blender optimizer)
     - Better-looking biome blending and optimizes the biome blend algorithm
-  - [Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump) (Clumps replacer)
-    - Clumps experience into one and adds minor optimizations. Doesn't add a new entity like Clumps does
+  - [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) (Xp orb clump)
+    - Clumps experience orbs into one to improve performance (fewer entities = better)
 - **Utility or Library:**
   - [File director](https://modrinth.com/mod/filedirector) (utility)
     - Moves, downloads, and handles files for the modpack 
