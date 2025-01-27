@@ -1,5 +1,5 @@
 # Incompatibilities
-**Optifine:**
+## Optifine
 
 No, thanks. Why not? See below.
 
@@ -24,7 +24,10 @@ TLDR²:
 Optifine is a good general purpose optimization mod,
 but for our application, it's not enough and actually makes optimization lag behind (literally).
 
-**Optimization mod Incompatibility 101:**
+<sub>TODO: Make a full and comprehensive list of alternatives to Optifine's Quality of Life [QoL]
+(as telling people to ditch all of it in favor of only a better render engine is stupid.)</sub>
+
+## Optimization mod Incompatibility 101
 
 [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and [Vintagium](https://github.com/Asek3/sodium-1.12) rework the rendering system heavily,
 making some mod's rendering to straight out not work.
@@ -37,7 +40,7 @@ Some of the current incompatibilities:
 _NOTE: This list might be out of date as it was made on 1/24/2025!
 This list also doesn't include all the incompatibilities neither might it be 100% correct,
 take this information with a grain of salt.
-Please check the respective mod's issue tracker for up-to-date information and/or._
+Please check the respective mod's issue tracker for up-to-date information._
 
 - **[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium):** ([see all incompatibilities here](https://github.com/Meldexun/Nothirium/issues?q=is%3Aissue%20state%3Aopen%20label%3Aconfirmed))
     - [Little Tiles](https://github.com/Meldexun/Nothirium/issues/9)
@@ -53,7 +56,7 @@ Please check the respective mod's issue tracker for up-to-date information and/o
 
 
 - **[Vintagium](https://github.com/Asek3/sodium-1.12):** ([see the complete issue list, these might not be incompatibilities, neither have they been confirmed nor dismissed, see at your own discretion](https://github.com/Asek3/sodium-1.12/issues))
-    - [daizu-007's Vintagium Compatibility List](https://github.com/daizu-007/Vintagium-Compatibility-List)
+    - [daizu-007's Vintagium Compatibility List](https://github.com/daizu-007/Vintagium-Compatibility-List) (this is both a compatibility and incompatibility list)
     - [Little Tiles](https://github.com/Asek3/sodium-1.12/issues/8)
     - [ArchitectureCraft](https://github.com/Asek3/sodium-1.12/issues/9)
     - [Wrong render of ImmersiveEngineering wires](https://github.com/Asek3/sodium-1.12/issues/13)
@@ -62,14 +65,19 @@ Please check the respective mod's issue tracker for up-to-date information and/o
     - [Chisel & Bits crash](https://github.com/Asek3/sodium-1.12/issues/64)
     - [Multiblocks not rendering](https://github.com/Asek3/sodium-1.12/issues/39)
 
-**[NoiseThreader](https://www.curseforge.com/minecraft/mc-mods/noisethreader)**
+
+
+## Other Misc Incompatibilities
+
+### [NoiseThreader](https://www.curseforge.com/minecraft/mc-mods/noisethreader)
 
 Replaced by its "better"
-uncle [MultiThreadNoise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
+uncle [Multithreaded Noise,](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
 which also does not add another (possibly) redundant dependency.
 
 <---------->
 
-For further information about integrating this modpack's mods into your already existing modpack,
+For further information
+about integrating this modpack's optimizations into your already existing modpack,
 please see [Modpack Specific Optimizations](https://github.com/Radk6/MC-Optimization-Guide/blob/main/modpack-specific/modpack-instructions.md) by [Radk6](https://github.com/Radk6),
 it is not a directly useful guide, but it will help you a ton.
