@@ -1,7 +1,8 @@
 # Levviata's Optimization Pack
 
-### NOTE: To download Vintagium latest release, please join [Cleanroom's Discord server](https://discord.com/invite/f2K4aSpG4F) and check the [# 🌟 information channel](https://discord.com/channels/926486493562814515/1185366081133617293/1259432738843398265), you will see the latest release there.
+### NOTE: 
 
+To download Vintagium latest release, please join [Cleanroom's Discord server](https://discord.com/invite/f2K4aSpG4F) and check the [# 🌟 information channel](https://discord.com/channels/926486493562814515/1185366081133617293/1259432738843398265), you will see the latest release there.
 
 ### OPTIFINE IS NOT SUPPORTED 
 _(see more on "Known Issues / Known Incompatibilities" section)_
