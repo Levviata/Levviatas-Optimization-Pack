@@ -56,6 +56,9 @@ the pack is named "Optimum" internally)
     - Amazing library for developers
   - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib) (library)
     - A rendering library
+## External Mods / Bundled Mods
+This modpack uses [File Director](https://modrinth.com/mod/filedirector) to download these mods:
+- [Multithreaded Noise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
 
 ## Performance Comparison
 TODO: add images for comparison (against vanilla, etc.)
