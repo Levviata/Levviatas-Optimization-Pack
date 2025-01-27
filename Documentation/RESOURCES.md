@@ -2,14 +2,14 @@
 
 ### **Performance**
 - **Performance mod lists used/referenced:**
-    - [UtilMods](https://github.com/TheUsefulLists/UsefulMods/)
-    - [Radk6's Performance Mod List](https://github.com/Radk6/MC-Optimization-Guide)
+    - **[UtilMods](https://github.com/TheUsefulLists/UsefulMods/)**
+    - **[Radk6's Performance Mod List](https://github.com/Radk6/MC-Optimization-Guide)**
 
 **Java Arguments**:
-- [DataDalton's Arguments](https://github.com/DataDalton/Minecraft-Performance-Guide/blob/fe8d8fbfebe129a38a67c56d5452e871e48580bc/Java%20Arguments/README.md)
+- **[DataDalton's Arguments](https://github.com/DataDalton/Minecraft-Performance-Guide/blob/fe8d8fbfebe129a38a67c56d5452e871e48580bc/Java%20Arguments/README.md)**
 
 **Non-essential Performance Mods**:
-- [Entity Distance](https://www.curseforge.com/minecraft/mc-mods/entity-distance-1-12-2):
+- **[Entity Distance](https://www.curseforge.com/minecraft/mc-mods/entity-distance-1-12-2):**
     - Adds a configuration for reducing how far your client renders and tracks certain entities (similar to "Simulation Distance" Minecraft configuration in modern versions)
 
 ### **Quality of Life or Gameplay**
@@ -23,3 +23,6 @@
 **Modpack utils:**
 - **[Multiblocked](https://www.curseforge.com/minecraft/mc-mods/multiblocked):**
     - Multiblock tweaker and library. Looks amazing for multiblock machines/structures/etc.
+**Performance Profiling utils**
+- **[Flare](https://modrinth.com/mod/flare):**
+  - A fork of Spark for 1.12.2. Prefer Flare to [Spark Unforged](https://www.curseforge.com/minecraft/mc-mods/spark-unforged) as Flare is being more actively maintained compared to Spark Unforged (Flare is also the only 1.12.2 profiler compatible with CensoredASM).
