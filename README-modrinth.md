@@ -6,7 +6,6 @@ When you first run the modpack, your game WILL crash; this is expected, however.
 
 Reboot your game and you will be totally fine.
 
-
 ([issue on GitHub](https://github.com/TerraFirmaCraft-The-Final-Frontier/FileDirector/issues/31) + [reason why this unavoidably happens](https://github.com/Levviata/Levviatas-Optimization-Pack-public/blob/72e72c417410e9ee3f867704bf0cac6d576c6bf1/Misc/filedirectorissue.png)).
 
 To download Vintagium latest release,
