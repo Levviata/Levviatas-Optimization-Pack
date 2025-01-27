@@ -29,7 +29,7 @@ the pack is named "Optimum" internally)
   - [Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) + [Naughtirium](https://modrinth.com/mod/naughthirium) (render engine) -> _NOTE: Naughtirium adds compatibility with CensoredASM and Nothirium, it is needed._
     - A chunk render engine. Reworks and (hopefully) optimizes chunk rendering
   - [CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm) (optimizes ram, fixes crashes, and optimizes code in general)
-    - ~~Agnostic Super Mod~~ Minecraft code patcher via magic hackery. Reworks and optimizes a lot of Minecraft's code with positive results
+    - Minecraft bytecode hackery. Optimizes a lot of Minecraft's code with positive results
   - [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entity-culling) (1.12.2-only maintained entity culling)
     - A entity culling render system. Hides entities that aren't visible on your screen
   - [Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks) (general tweaks/bugfixes)
@@ -46,6 +46,8 @@ the pack is named "Optimum" internally)
   - [Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump) (Clumps replacer)
     - Clumps experience into one and adds minor optimizations. Doesn't add a new entity like Clumps does
 - **Utility or Library:**
+  - [File director](https://modrinth.com/mod/filedirector) (utility)
+    - Moves, downloads, and handles files for the modpack 
   - [ConfigAnyTime](https://www.curseforge.com/minecraft/mc-mods/configanytime) (library)
     - Lets config be edited at any time 
   - [RedCore](https://www.curseforge.com/minecraft/mc-mods/red-core) (library)
