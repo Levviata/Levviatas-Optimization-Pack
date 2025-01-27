@@ -61,6 +61,9 @@ the pack is named "Optimum" internally)
 This modpack uses [File Director](https://modrinth.com/mod/filedirector) to download these mods:
 - [Multithreaded Noise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
 
+_("File Director" is a Minecraft Forge mod
+that allows you to download and manage mods in modpacks)_
+
 ## Performance Comparison
 TODO: add images for comparison (against vanilla, etc.)
 also check how Entity Cull (current) differs from the other Entity Cull (by tr7zw)

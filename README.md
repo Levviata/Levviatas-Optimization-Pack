@@ -37,6 +37,9 @@ is that the modpack version on Modrinth uses [File Director](https://modrinth.co
 - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib)
 - [Multithreaded Noise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
 
+_("File Director" is a Minecraft Forge mod
+that allows you to download and manage mods in modpacks)_
+
 There is currently no other way to bundle those mods with the [Modrinth] modpack.
 
 This is because of:

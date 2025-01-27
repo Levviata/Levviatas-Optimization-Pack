@@ -75,6 +75,9 @@ This modpack uses [File Director](https://modrinth.com/mod/filedirector) to down
 - [RenderLib](https://www.curseforge.com/minecraft/mc-mods/renderlib)
 - [Multithreaded Noise](https://www.curseforge.com/minecraft/mc-mods/multithreaded-noise)
 
+_("File Director" is a Minecraft Forge mod
+that allows you to download and manage mods in modpacks)_
+
 These mods were redistributed/bundled with the modpack for convenience (see "Credits / Copyright Notice" section for more information):
 - [Censored ASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)
 - [StellarCore](https://www.curseforge.com/minecraft/mc-mods/stellarcore)
