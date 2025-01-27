@@ -9,6 +9,10 @@ file = "LICENSE.txt"
 hash = "01e22c13e1eba21d9fa0790ae648a2212a51924c30a1d1e667ab515e71a1e64a"
 
 [[files]]
+file = "config/Universal Tweaks - Bugfixes.cfg"
+hash = "5193cde4f0e587746eaf7e4205d5f0a276999e6f6dd1592aabdd333678766150"
+
+[[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
 hash = "33a93deffb60bd80c8f26fd605b31908b0c420d0aa83c52133127d6f0beab9f2"
 
